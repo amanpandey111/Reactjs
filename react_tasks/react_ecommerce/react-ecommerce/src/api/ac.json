@@ -1,0 +1,104 @@
+[
+    {
+      "id": "1",
+      "product": "LG Dual Inverter Air Conditioner",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTCIVqu66FsSXrcksfowSapukMd5Br8pEp8L3lJWjtkCsXSl28TPREmvhDAB-de60gzTsvkVB-pQxRuCIOap6vv4lW_qLu12pQ4HdhBzwgwF3XQfTK8dgqa6A",
+      "company": "LG",
+      "model": "CoolTech 5000",
+      "price": 79999,
+      "category": "AC",
+      "description": "Powerful 15000 BTU window air conditioner with energy-saving features."
+    },
+    {
+      "id": "2",
+      "product": "Samsung 1.5 Ton 3 Star Inverter AC",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTSnvV0JoN9MCtirrdT4K1sTt4ZLHwgEiubvwh2WUImS7UTPse_HXnRLlGBistSKVj9Ym1mMWoB2T5RfivJol2cUiTYm1uxriSThDLBU1YHQUJ2n5Pe2HLS-A",
+      "company": "Samsung",
+      "model": "AR18TY3QBBU",
+      "price": 35990,
+      "category": "AC",
+      "description": "Inverter AC with triple protector plus for protection and energy efficiency."
+    },
+    {
+      "id": "3",
+      "product": "Daikin 1.5 Ton 5 Star Inverter Split AC",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR_O1Ow3wQ-F_GIuZL062RGjGZsHO5okb9pldAgmkQhAM7SFrCcemz9kduFUXBwfXElxiFK-O-E_EYQfxauIBOiUaac6EOTIUyOANqPl3wRDS_5yayglijrVzQ",
+      "company": "Daikin",
+      "model": "FTKP50TV16U",
+      "price": 43990,
+      "category": "AC",
+      "description": "High performance with low energy consumption and better cooling."
+    },
+    {
+      "id": "4",
+      "product": "Voltas 1.5 Ton 5 Star Inverter AC",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTj5ivLlyRHVgG6yxAFaeFDxEWX3NbZLd5j8eg4Zx0q5sTyCaBtB_dgOluVd4Ns6tkaUyhwGOe051T0O60wupcN_wMWF89Wo5szaowPOTVACEUxW1OajA4TdyA",
+      "company": "Voltas",
+      "model": "123VZS",
+      "price": 39990,
+      "category": "AC",
+      "description": "High efficiency with cooling comfort for both summer and winter."
+    },
+    {
+        "id": "5",
+        "product": "Hitachi 1.5 Ton 5 Star Inverter AC",
+        "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQktym21a9coX2K2lbk623J_956iwPlebaqYUXtvCYoTilTcnA0HutIGh35WmI0pa-loK6bZceLzK0QbetrOKO1wfH_6H-zZdmdk0Bgx0zEaSYpiPG5ijxU-kg",
+        "company": "Hitachi",
+        "model": "RAG518HUD",
+        "price": 46990,
+        "category": "AC",
+        "description": "Tropical Inverter Technology with expandable cooling."
+      },
+      {
+        "id": "6",
+        "product": "Blue Star 1.5 Ton 3 Star Split AC",
+        "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR2VFQ6aZ9FKTZu3ppVwVTHTShm5ch8Lkx7tIzqXjaHEy9qmHUck1BhXfYiY_vMOAxsZUkgeHQONeQYByrx-mlOh1ucuxcHto9ya2YK5OxO",
+        "company": "Blue Star",
+        "model": "IC318EBTU",
+        "price": 33999,
+        "category": "AC",
+        "description": "Copper condenser with turbo cool and anti-corrosive blue fins."
+      },
+      {
+        "id": "7",
+        "product": "Carrier 1.5 Ton 3 Star Inverter Split AC",
+        "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQcTDr3u-iuIxPZHVRayG9_xnvODODrnMo42CeoYc4hL2CP-n3uZ0j7wIfagXzgwLERrUKNIApwCnNaLtYF6UJtRWej74aJ4iqpH4Ksb4d1Sy13nxHnJbp8gQU",
+        "company": "Carrier",
+        "model": "ESTERCxi",
+        "price": 38990,
+        "category": "AC",
+        "description": "Dual Filtration with PM 2.5 filter and Insta Cool Mode."
+      },
+      {
+        "id": "8",
+        "product": "Whirlpool 1.5 Ton 3 Star Inverter Split AC",
+        "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRem35e76XPIWrHMmgcsNf4J_L_gyHmglCFRVLQzL_ySPIQeUYopECKRYW-CRdGDKHbyFYQufxTHeiY5UFOiF9AbjhwY6faMlFCgflAm3MqhOByidIIX_BXFPY",
+        "company": "Whirlpool",
+        "model": "Magicool Convert Pro+",
+        "price": 35490,
+        "category": "AC",
+        "description": "6th Sense FastCool Technology with advanced inverter."
+      },
+      {
+        "id": "9",
+        "product": "Panasonic 1.5 Ton 5 Star Wi-Fi Twin-Cool Inverter Split AC",
+        "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSItnB4FQFGYwQ0QBb_RdqwTdrAxWziFW2Jj9UcMR6C81GlNPpruRqsRTbX9y391gRQq6NyfEqro_R_S0oSuwqfN4_hGPatoYX8IzOuC4NfaOL4NkSUVe_d_g",
+        "company": "Panasonic",
+        "model": "CS/CU-NU18YKY5W",
+        "price": 43990,
+        "category": "AC",
+        "description": "Smart AC with Wi-Fi, Alexa, and Twin-Cool Inverter technology."
+      },
+      {
+        "id": "10",
+        "product": "Godrej 1.5 Ton 3 Star Inverter Split AC",
+        "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcThGH0QJRBps-tlN2BT7XpNihlAxdnEGENpfTk31yTfs-sWySpj-yIbJveL1Q_nt6qXQtGMtLqCsgEcmLRk1-a7nZcuIP1pf7J7jJkZDyyKpFn0q7dBhWf5dDY",
+        "company": "Godrej",
+        "model": "GIC 18YTC3-WTA",
+        "price": 31990,
+        "category": "AC",
+        "description": "Green Inverter Technology for eco-friendly efficient cooling."
+      }
+      
+]
+  

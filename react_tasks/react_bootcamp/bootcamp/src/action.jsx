@@ -1,0 +1,11 @@
+export let addcourse = "task/addcourses"            //to add the courses of individial category
+export let addlocaldata = "task/addlocalstorage"   // add all the data from local storage
+export let signuptoggle = "task/togglesignup"
+export let signintoggle = "task/togglesignin"
+export let exists = "task/useralreadyexists"       // to handle user exists or not
+export let loginuser = "task/login/logout"        //to handle bool of whether user login or logout
+export let setuserdetail = "task/setuserdetail"   //if login credential are correct then set user detail
+// export let deletecourse = "usertask/deletecourse" //To remove the task from user account
+export let addInputText = "inputfiled/addtext"    //FOr the unorder list
+export let userinputbox = "userinput/toggle"      //to toggle th particular userinput and normal input
+export let addInputText2 = "inputfield2/addtext"  //to store the input text in my second input box

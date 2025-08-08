@@ -1,0 +1,196 @@
+/*todo : Let's do the styling for header part */
+
+/*! here we are doing for div1 of header which contain only two div */
+.emart-div{
+   /* border: 2px solid; */
+   font-size: 1.3rem;
+}
+a{
+   /* border: 2px solid black; */
+    color: white;
+    text-decoration: none;
+ }
+.main-header-div1{
+    padding-left: 10px;
+    /* padding-right: 10px; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 3.5rem;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.input-div{
+    display: flex;
+}
+.input-div input{
+    width: 350px;
+    height: 28px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding-left: 10px;
+    border: none;
+}
+.main-header-div1-parent{
+    background-color: #2774F0;
+    /* border: 2px solid red; */
+}
+
+/*! here we are doing for div2 of header which contain only two div */
+.main-header-div2{
+    background-color: white;
+}
+.main-header-div2 ul{
+    list-style-type: none;
+    height: 2.3rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main-header-div2 ul li{
+    color: black;
+    font-size: 14px;
+    font-weight: 610;
+}
+
+ /* //! Let's Do styling for popup message */
+ .popup-message{
+    /* border: 2px solid green; */
+    padding-top: 1.4rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    width: 30rem;
+    position: absolute;
+    right: 100px;
+    top: 7.5rem;
+    color: black;
+    height: 17.3rem;
+    overflow:auto;
+    background-color: rgb(243, 237, 237);
+    /* background-color: rgb(250, 229, 229); */
+    border-radius: 1rem;
+    /* background-color: rgb(161, 161, 159); */
+    /* background-color: whitesmoke; */
+    /* background: white; */
+    /* text-align: center; */
+ }
+ .total-cost{
+    margin-top: 0.4rem;
+    padding-left: 0.5rem;
+    font-size: 20px;
+    color:#7e8fab;
+    font-weight: 530;
+ }
+ .total-cost-div span{
+    /* border: 2px solid magenta ; */
+    font-size: 20px;
+    color: black;
+    font-weight: 550;
+ }
+ .popup-message h1{
+    /* color: blue; */
+    /* border: 2px solid yellow; */
+    font-weight: 520;
+    font-size: 22px;
+    text-align: center;
+ }
+ .arihmetic-button{
+    /* border: 2px solid magenta; */
+    height: 1.5rem;
+    width: 2rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+ }
+ .bg-red-button{
+    background-color: red;
+    /* height: 1.5rem; */
+    height:fit-content;
+    /* width: 4.3rem; */
+    padding: 0.4rem 1rem;
+    color:white;
+    cursor: pointer;
+ }
+ .card-detail-div3{
+    /* border: 2px solid yellowgreen; */
+    display: flex;
+    gap: 0.5rem;
+ }
+ .card-detail-div2{
+    /* border: 2px solid gold; */
+    /* padding-top: 2rem; */
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.4rem;
+    /* gap: 4rem; */
+    width: 100%;
+    padding: 0.5rem;
+    margin-left: 0px;
+ }
+ .card-detail-div2 span{
+   font-size: large;
+    color: black;
+    font-weight: 550;
+    line-height: 1.5rem;
+ }
+ .card-detail-div2 p{
+    font-size: 14px;
+    color:#7e8fab;
+    /* color:white; */
+    font-weight: 500;
+ }
+ .card-details-div img{
+    /* border: 2px solid green; */
+    width: 90px;
+    height: 80px;
+ }
+ .card-details-div{
+    /* border: 2px solid red; */
+    padding-top: 1rem;
+    /* background-color: white; */
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+ }
+ .card-detail-div2-1{
+    /* border: 2px solid magenta; */
+    width: 13rem;
+ }
+
+ /* //todo : Let's write the code for popup message */
+.suggestion-list{
+    /* border: 2px solid green; */
+    /* border-radius: 10px; */
+    list-style-type: none;
+    position: absolute;
+    top: 2.4rem;
+    width: 18.36%;
+    /* background-color: #7e8fab; */
+    background-color: white;
+    height: 10rem;
+    padding-left: 0.5rem;
+    padding-top: 0.6rem;
+    line-height: 1.7rem;
+ }
+ .suggestion-list li{
+   /* border: 2px solid red; */
+    color: black;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 0.4rem;
+ }
+ .special-input-class{
+   /* background-color: red; */
+   border-radius: 8px;
+ }

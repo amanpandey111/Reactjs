@@ -1,0 +1,279 @@
+/* Styling the header Part */
+
+.header img{
+    width: 8rem;
+    cursor: pointer;
+}
+.header input{
+    width: 30rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media (max-width:650px){
+    .auto1{
+        /* border: 2px solid red; */
+        width: 15rem !important;
+    }
+}
+@media (max-width:604px){
+    .left-main-section {
+        display: none;
+    }
+    .auto1{
+        width: 10rem;
+        /* background-color: red; */
+    }
+    .menu-icon{
+        display: block;
+        /* border: 2px solid rebeccapurple; */
+    }
+    .common-btn{
+        /* border: 2px solid red !important; */
+        width: auto !important;
+        font-size: 10px !important;
+    }
+    .logo-img{
+        width: 100px !important;
+    }
+}
+@media (max-width:575px){
+    .auto1{
+        /* display: none; */
+        width: 35% !important;
+    }
+}
+@media (max-width:480px){
+    .auto1{
+        display: none;
+        /* width: 35% !important; */
+    }
+}
+
+/* styling start for all detail section */
+
+.alldetail-section{
+    background-color:#F2F2F2;
+}
+.alldetail-view-section{
+    background-color: #F2F2F2;
+    height: 100vh;
+}
+@media (max-width:978px){
+    .alldetail-view-section{
+        height: auto;
+    }
+}
+
+/*  styling End for alldetail section */
+
+/* Let's Do Styling for left side list */
+
+.current{
+    background-color: #4c95ee !important;
+    color: white;
+}
+
+.left-main-section div ul li{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideIn 1s forwards ;
+    padding-left: 0.5rem;
+}
+
+.left-main-section div ul li:hover{
+    transform: scale(1.04) !important;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.opendraw{
+    display: block;
+}
+
+/* Let's Do Styling for right side list */
+
+.success_wish{
+    /* border: 12px solid green; */
+    color: red;
+    cursor: pointer;
+}
+.whishlist:hover{
+    color: red;
+    cursor: pointer;
+}
+@media (max-width:985px){
+    .grid_container{
+        margin: auto;
+    }
+}
+@media (max-width:604px){
+    .right-section-main{
+        margin-left: 0px !important;
+    }
+}
+@media (max-width:1200px){
+    .course_card{
+        max-width: 370px;
+    }
+}
+@media (max-width:390px){
+    .ul{
+        padding-left: 1rem;
+    }
+}
+
+
+/* styling for right side ends here*/
+
+/* Let's Do styling For Signup Form*/
+
+.signup-form-section form input{
+    /* background-color: red; */
+    /* background-color: #DCDCDC; */
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+    height: 2.5rem;
+    width: 24.3rem;
+    height: 3.5rem;
+    border-radius: 0.4rem;
+    /* border: 2px solid; */
+}
+.form-div1 input{
+    width: 11rem;
+    /* border: 2px solid; */
+}
+@media (max-width:500px){
+    .signup-form-section{
+        width: 90% !important;
+    }
+    .signup-form-section form input{
+        width: 100%;
+    }
+}
+
+/* Sign up for styling ends here */
+
+/* Let's do styling for login form */
+.login-section form input{
+    /* background-color: #F2F2F2; */
+    font-size: 0.8rem;
+}
+.login_input{
+    /* border: 1px solid orange !important; */
+}
+.login_error{
+    /* border: 1px solid blue; */
+    position: relative;
+    bottom: 0.7rem;
+}
+@media (max-width:500px){
+    .login-section{
+        width: 90% !important;
+        /* border: 2px solid green;     */
+    }
+    .login-section form input{
+        /* border: 2px solid magenta !important; */
+        /* width: 100% !important; */
+        /* border: 2px solid red; */
+    }
+    .login_input{
+        /* border: 2px solid red !important; */
+        width: 50% !important;
+        /* margin: auto !important; */
+    }
+    .login_error{
+        /* border: 2px solid green; */
+        width: 50% !important;
+    }
+    .sigin_button{
+        /* background-color: red !important; */
+        width: 50% !important;
+        /* width: max-content !important; */
+    }
+}
+@media (max-width:350px){
+    .login_input{
+        /* border: 2px solid red !important; */
+        width: 40% !important;
+        /* margin: auto !important; */
+    }
+    .login_error{
+        /* border: 2px solid green; */
+        width: 40% !important;
+    }
+    .sigin_button{
+        /* background-color: red !important; */
+        width: 40% !important;
+        /* width: max-content !important; */
+    }
+}
+
+/* Let's Do Style for userprofile page */
+
+@media (max-width:800px){
+    .profile-div1{
+        /* border:none !important; */
+    }
+    .user-icon{
+        /* display: none; */
+    }
+}
+@media (max-width:1090px){
+    .profile-div1{
+        width: 70% !important;
+        gap: 0.4rem !important;
+        border: none !important;
+        /* background-color: red !important; */
+    }
+    .user-icon{
+        font-weight: 1rem !important;
+        height: 3rem;
+        margin-top: 0.3rem;
+    }
+}
+@media (max-width:650px){
+    .profile-div1{
+        width: 90% !important;
+        /* background-color: red !important; */
+    }
+}
+
+@media (max-width:900px){
+    .course-group{
+        width: 90% !important;
+        /* border: 2px solid green; */
+        flex-direction: column !important;
+        justify-content: start !important;
+        gap: 0.5rem;
+        padding-bottom: 1rem;
+        width: 15rem !important;
+    }
+}
+@media (max-width:710px){
+    .enroll-img{
+        /* display: none !important; */
+        width: 17rem !important;
+    }
+}
+@media (max-width:380px){
+    .enroll-img{
+        width: 16rem !important;
+        /* margin: 0px 10px !important; */
+    }
+}
+@media (max-width:600px){
+    .wishlist-one-grid{
+        /* border: 2px solid green; */
+        width: 100% !important;
+    }
+}

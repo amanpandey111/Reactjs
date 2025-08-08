@@ -1,0 +1,122 @@
+[
+    {
+      "id": "80",
+      "product": "Smartphone",
+      "image": "https://rukminim3.flixcart.com/image/850/1000/xif0q/mobile/t/0/g/-original-imah4zp7fvqp8wev.jpeg?q=90&crop=false",
+      "company": "Samsung",
+      "model": "Galaxy S23",
+      "price": "999.99",
+      "category": "Mobile",
+      "description": "Latest Samsung flagship with stunning AMOLED display."
+    },
+    {
+      "id": "81",
+      "product": "Smartphone",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTdNKEdlQM7U-uIYGqq_mvKYZJNCBKW9eYuMCiWnaMWxGDnmEOesQu5jSvt84YEZE7cARI4Lqa4z_ZBaUI5UdastjCc8ZRwgu1_oGbUcWnBKQZoTT65_Pxl",
+      "company": "Samsung",
+      "model": "iPhone 14",
+      "price": "1099.00",
+      "category": "Mobile",
+      "description": "Powerful performance with sleek design from Apple."
+    },
+    {
+      "id": "82",
+      "product": "Smartphone",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ28rfiRIGrX9zXTYChJ9yw6XLxB2JWuak1VHp7qH7NJ9dx2lTVd5Zw0cktsGsRJyoAs6x3QT3WLPqPb7QLvZLEl719fay5khwOU1O2JN_slyutH59fE-i6",
+      "company": "OnePlus",
+      "model": "Nord 3",
+      "price": "499.99",
+      "category": "Mobile",
+      "description": "Smooth experience with 90Hz AMOLED screen."
+    },
+    {
+      "id": "83",
+      "product": "Smartphone",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT4mbb_7mHtahP2rs_K8exKSMVf0WCdI3sPrsIXF1bTf8kH2l8gmxvuOIVGjwh-rmLUChsI3byzoNuZOKk8K7yWY_oVbBJmhiTJ_ldU-JXcEI0YKxMoX_3u",
+      "company": "Realme",
+      "model": "GT Neo",
+      "price": "349.99",
+      "category": "Mobile",
+      "description": "Budget beast with gaming chipset."
+    },
+    {
+      "id": "84",
+      "product": "Smartphone",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcToMKkI2C1WXeoDu2YAiIELdnqCBbsb9Hm_xYIzSpvTzBWVx9CaJtcostNHXr60uhX9zv1ySBA_AoFkT6Nm4cX8WC0WUUkmBFLdpWe6fUrRr0aj4JZ-ptneVw",
+      "company": "Xiaomi",
+      "model": "Redmi Note 12",
+      "price": "299.99",
+      "category": "Mobile",
+      "description": "All-rounder phone at affordable price."
+    },
+    {
+      "id": "85",
+      "product": "Smartphone",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQksqs0WFraFdgvbcy3BAmzXY25HkgfOKIiaL2BMkZ9ZvLzN8HIRe4THQzytZddplcCVz_QD4zPqsHFWqFRqVJR_BsUf-Y8gZZLVez3eS2ET3dZASQHu5TmkA",
+      "company": "Motorola",
+      "model": "Edge 40",
+      "price": "699.99",
+      "category": "Mobile",
+      "description": "Clean Android experience with premium build."
+    },
+    {
+      "id": "86",
+      "product": "Smartphone",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSb6_2SDhoOuLsc7UDUZzg5F9EstDHxXUGH03VUmcSQKY3_tLr1M1-CelWiha4hxvR8Ual7k55RpjOC891sEuJfQWw-tQMFCPftSetFQpCCgt2Ef3K_pMzvWg",
+      "company": "Google",
+      "model": "Pixel 8",
+      "price": "899.00",
+      "category": "Mobile",
+      "description": "Pure Android experience with top-notch camera capabilities."
+    },
+    {
+      "id": "87",
+      "product": "Smartphone",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQL1bWVK23t0DtpRXw_FDrlH4gGlAqs5DiAfq1nzph8htr7TLiV98o3hG35sUY19gyLGIofmd0KSPDsINOALDvXSkXOTJ5lNjd4anGoPYxDaBa5iNN2kavK",
+      "company": "Oppo",
+      "model": "Find X5 Pro",
+      "price": "1099.99",
+      "category": "Mobile",
+      "description": "Flagship phone with fast charging and great camera setup."
+    },
+    {
+      "id": "88",
+      "product": "Smartphone",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS1XbAFWBn6WSX5me94Ziom944kM8QCXcFuqCeQWRfSaqXca9hKHOC9XkZ5VYbEn8ZAEb8gTObeYsYFNjgyM2dShsU_O-ZOpL1NTHiSdz3S",
+      "company": "Vivo",
+      "model": "V23 Pro",
+      "price": "699.00",
+      "category": "Mobile",
+      "description": "Sleek design with high-performance features."
+    },
+    {
+      "id": "89",
+      "product": "Smartphone",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRsIqPNf3qhWlFFsJtjreJGpVl-z1wQajDZDfjnUZJN4mYmSN74DQhAu2lqmKHjMWGoe5h3K3ezxlJxLRfKDVWOM1pP3cNzarasIDzypCT3",
+      "company": "Huawei",
+      "model": "P50 Pro",
+      "price": "1199.99",
+      "category": "Mobile",
+      "description": "Premium camera smartphone with incredible performance."
+    },
+    {
+      "id": "90",
+      "product": "Smartphone",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQD7UacptaUb2W-uNTIXsaC_ifvzJSQW5mvYSqQR_paCadiyw4EVK16QhQXGlmXRdtcEFDAqoH8TyWvkTRzp3LjetPC81_gJVGmMLuw9hNx",
+      "company": "Sony",
+      "model": "Xperia 1 IV",
+      "price": "1399.99",
+      "category": "Mobile",
+      "description": "Flagship phone with 4K display and professional camera features."
+    },
+    {
+      "id": "91",
+      "product": "Smartphone",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR16t7G7rgFrVrRzAi_0lzqu3FC8rD0l1bspnI8xtqXmdQp_Kdh8xj1uEtOc_ek7yds5mAGmw4JQCUU5UdgXzX-OlpPVuo5XQ6Kt-pQYPQ",
+      "company": "Asus",
+      "model": "ZenFone 9",
+      "price": "799.00",
+      "category": "Mobile",
+      "description": "Compact flagship with excellent performance and battery life."
+    }
+  ]

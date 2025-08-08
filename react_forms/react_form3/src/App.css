@@ -1,0 +1,59 @@
+/* body{
+  padding-bottom:250px;
+} */
+.userFrom{
+  margin:auto;
+  width: 500px;
+  border:solid 1px gray;
+  padding:20px;
+}
+
+.fromGroup{
+  margin-bottom: 20px;
+  border-bottom: solid 1px gray;
+  padding-bottom:10px;
+}
+.fromGroup label{
+  display: inline-block;
+  vertical-align: top;
+  min-width: 100px;
+}
+input[type=submit]{
+  border:solid 2px gray;
+  padding:5px 20px;
+  cursor: pointer;
+  font-size: 24px;
+  background-color: black;
+  color: #ffffff;
+}
+.error{
+  color:red;
+}
+input[type=text],
+input[type=email]{
+  width:200px;
+  padding:5px;
+}
+.addBtn{
+  padding:5px;
+  font-weight: bold;
+  background-color: gray;
+  font-size:15px;
+}
+.rmoveBtn{
+  padding:2px;
+  font-weight: bold;
+  font-size:15px;
+}
+h1{
+  margin:0;
+  width: 400px;
+  text-align: center;
+  
+}
+input[type="submit"][disabled] {
+  background: #f8f8f8;
+  border-radius: 5px;
+  cursor: not-allowed;
+  color: gray;
+}

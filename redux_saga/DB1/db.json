@@ -1,0 +1,40 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"Samsung M 40",
+            "color":"Grey",
+            "price":150000,
+            "category":"Mobile",
+            "brand":"Samsung",
+            "photo":"https://cdn.pixabay.com/photo/2017/02/27/22/03/mobile-phone-2104351_640.jpg"
+        },
+        {
+            "id":2,
+            "name":"Nokia",
+            "color":"black",
+            "price":1500,
+            "category":"Mobile",
+            "brand":"Nokia",
+            "photo":"https://cdn.pixabay.com/photo/2025/05/20/10/57/t-shirt-9611374_640.jpg"
+        },
+        {
+            "id":3,
+            "name":"Samsung M 40",
+            "color":"Grey",
+            "price":15000,
+            "category":"Mobile",
+            "brand":"Samsung",
+            "photo":"https://cdn.pixabay.com/photo/2017/02/27/22/03/mobile-phone-2104351_640.jpg"
+        },
+        {
+            "id":4,
+            "name":"T-Shirt",
+            "color":"Grey",
+            "price":1500,
+            "category":"Clothes",
+            "brand":"Sony",
+            "photo":"https://cdn.pixabay.com/photo/2024/04/29/04/21/tshirt-8726716_1280.jpg"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+.button-color a{
+    color: white;
+    text-decoration: none;
+}
+/* .button-color1{
+    background-color: rgb(221, 50, 50);
+    color: white;
+}
+.button-color2{
+    background-color: red;
+} */
+ .super{
+    background-color: yellow;
+    color: black;
+ }
+ .normal{
+    background-color: orange;
+ }
+ .rating{
+    width: 60px;
+    /* border: 2px solid green; */
+    display: inline-block;
+    border-radius: 14px;
+    /* height: 17px; */
+    padding: 3px;
+    text-align: center;
+ }

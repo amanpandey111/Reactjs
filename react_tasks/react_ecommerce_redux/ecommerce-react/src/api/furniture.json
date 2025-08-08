@@ -1,0 +1,123 @@
+[
+    {
+      "id": "45",
+      "product": "Sofa",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTXpsVE-S4c68WuPEE_pfGc22QoxiLmKO7_yf53-m2V8VYdWBkW5gNamexAhjZBe89PQDFZ4HDw6Mo2fUM4r550HravSL2QNw_RHPbvMeE",
+      "company": "Durian",
+      "model": "Recliner Sofa",
+      "price": 15999,
+      "category": "Furniture",
+      "description": "Comfortable recliner sofa with adjustable backrests."
+    },
+    {
+      "id": "46",
+      "product": "Dining Table",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSr1jz12zbKcziM-kjyw42zQd78sNof-CehfhEZ1gU6KzigCiKbUhsNAZzVN2Uxp2wSVPI4dW4DNMTo8KYxq27cZ5nnAc8dYF8Tk6Z3kQ0",
+      "company": "Godrej Interio",
+      "model": "Wooden Dining Table",
+      "price": 24999,
+      "category": "Furniture",
+      "description": "Elegant 6-seater dining table made of solid wood."
+    },
+    {
+      "id": "47",
+      "product": "Bookshelf",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSYyZrCJWmeN0stfoX1MiXhGYRp7NIg3rC-GdUYALzkbKWCgzoYkdtHrYjU8RhEU4R-S2DE9BuspWDT2xmHo_Q9CYKF0Rfh6ptr2rQSfvqP",
+      "company": "Urban Ladder",
+      "model": "Wall Mounted Bookshelf",
+      "price": 7999,
+      "category": "Furniture",
+      "description": "Space-saving wall-mounted bookshelf for modern homes."
+    },
+    {
+      "id": "48",
+      "product": "Bed",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ8O6cCIvbyyljsqblJ8NtPrYqu_JuZhv-MDSrH6xwTYaT6f3b7BtnRFu4yDw4b648TrDXW7gawsYpz2lyXtG1fUhleXKwJToI3W1ldsoE",
+      "company": "Wakefit",
+      "model": "King Size Bed",
+      "price": 19999,
+      "category": "Furniture",
+      "description": "Spacious king-size wooden bed with storage options."
+    },
+    {
+      "id": "49",
+      "product": "Chair",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSnkV4C8qSdb2_Nf_vMZgMJ3lnJGHfbZquHHW1Io9iobgci0CtaUSZhyboKVB6_eRh7bIVgfrXosKl3MP4MenjKgNFw7uOqk0pHS_JJNQ4",
+      "company": "Nilkamal",
+      "model": "Ergo Chair",
+      "price": 2999,
+      "category": "Furniture",
+      "description": "Ergonomically designed office chair with adjustable features."
+    },
+    {
+      "id": "50",
+      "product": "Coffee Table",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTNu9AJkG1U2a3GV4YrJnRXyH5TxfX223Saxbkhe4NgWwyS9Dzf3wyU1deYlF1yWCSHP9CGkfrRzBzh_Ay81sL6Fgr9hVT4xZxgHY6Va1be",
+      "company": "FurnitureKraft",
+      "model": "Modern Coffee Table",
+      "price": 7999,
+      "category": "Furniture",
+      "description": "Stylish coffee table with a glass top and wooden frame."
+    },
+    {
+      "id": "51",
+      "product": "Wardrobe",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS-c190HGR-EIZgZL7Bk04gSI6JuE8dc2t0MIQXIoMCz5-sg0573KmcjLTKEFi3Zb9NWCRGeA3QjJbH7dn06OfUkZ_0iBeWbEn6Y5TQ0r0uCy7UyvSD9TNyIQ",
+      "company": "IKEA",
+      "model": "BRIMNES 3-Door Wardrobe",
+      "price": 17999,
+      "category": "Furniture",
+      "description": "Spacious wardrobe with adjustable shelves and mirror door."
+    },
+    {
+      "id": "52",
+      "product": "TV Unit",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSRIyPvM6uAyT9SUyDfIlscloXihXuGKGivd7loDZJsRVATfFfadiLb9Ni9XW2chBspMM7Uxbe8U_LAVErGI7TLqQV84ztxg21JjbqrGjw",
+      "company": "HomeTown",
+      "model": "Zara TV Unit",
+      "price": 10999,
+      "category": "Furniture",
+      "description": "Modern TV unit with multiple storage compartments and cable management."
+    },
+    {
+      "id": "53",
+      "product": "Study Table",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSq2uCUjHI-GfRAar29h3dy2Td8UWp3Xu7LeWNHTaBGI1b5uwUJKtxg1Jv0yOPSpqmkB0csbNlmgb_reP-5GdAjmK3P49TfZrSABQYCmIw",
+      "company": "Flipkart Perfect Homes",
+      "model": "Multipurpose Study Desk",
+      "price": 4999,
+      "category": "Furniture",
+      "description": "Compact study table with shelves for books and stationery."
+    },
+    {
+      "id": "54",
+      "product": "Dressing Table",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT7HZNbv2k4SZq6Og2Dhs78hJxLWvGBiR1ymIMQpuyhbO7uE1BS3uGr7metR2urRs0v_teDzaYKwvz1NedUXL7kq7tqs_U-cZxffXOjha4",
+      "company": "WoodenStreet",
+      "model": "Mirror Dressing Table",
+      "price": 8999,
+      "category": "Furniture",
+      "description": "Elegant wooden dressing table with mirror and drawer storage."
+    },
+    {
+      "id": "55",
+      "product": "Shoe Rack",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSaSIchM_wjH_4ggqEQIeBp0LQNvps1Pk9wo3YOJT3-ya9WJpPV8E_7Uie6bu2yWxY-wPe2-YlVtg_MSPnqawEcVNJwuMWy-EB47L2Dap0",
+      "company": "Nilkamal",
+      "model": "Multipurpose Shoe Cabinet",
+      "price": 3499,
+      "category": "Furniture",
+      "description": "Compact shoe rack with multiple shelves and a stylish finish."
+    },
+    {
+      "id": "56",
+      "product": "Bean Bag",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRPfMIesoQpkx7OztRUZ_xsVuSJTnYH7uppxU1_s_hEM_mQJI_Tqe3USSLYGP-HDTMnNEmbRGGEVoPEiYZc3lHvyIYmFDddxknN1KecdqUr",
+      "company": "Sattva",
+      "model": "Classic Leather Bean Bag XL",
+      "price": 1899,
+      "category": "Furniture",
+      "description": "Comfortable leather bean bag ideal for lounging and relaxing."
+    }    
+  ]
+  

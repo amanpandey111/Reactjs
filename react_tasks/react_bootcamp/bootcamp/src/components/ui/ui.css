@@ -1,0 +1,471 @@
+/* todo : Styling the header Part */
+.header{
+    /* border: 2px solid red; */
+    position: sticky;
+    top: 0px;
+    /* background-color: aliceblue; */
+    background-color: #232F3E;
+    z-index: 1;
+}
+.header-section{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 60%; */
+    margin: auto;
+    padding: 0.6rem 1rem;
+}
+.header div:last-child{
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.header img{
+    width: 9rem;
+    cursor: pointer;
+}
+.header input{
+    width: 30rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+}
+.header .search-input{
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    padding: 0.1rem 1rem;
+    border-radius: 0.4rem;
+    background-color: white;
+}
+
+.suggestion{
+    position: absolute;
+    /* top: 200px; */
+    /* left: 500px; */
+    transform: translate(42.4rem,9.1rem);
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    padding-left: 0.6rem;
+    width:33rem;
+}
+.suggestion2{
+    position: absolute;
+    transform: translate(0rem,6.6rem);
+    left: 36.5%;
+    background-color: white;
+    font-weight: 600;
+    width:33rem;
+    text-decoration-line: none;
+    color: black;
+    padding: 0px;
+    padding-left: 0.6rem;
+}
+.suggestion2 p{
+    /* list-style-type: none;
+    text-decoration-line: none; */
+    color: black;
+    /* margin-top: 0.5rem; */
+}
+
+@media (max-width:1210px){
+    .header-section{
+        width: 100%;
+    }
+}
+
+/* todo : styling start for all detail section */
+
+.alldetail-section>div,.alldetail-view-section>div{
+    /* border: 2px solid green; */
+    display: flex;
+    /* justify-content: center; */
+    /* padding-top: 1rem; */
+    /* gap: 2rem; */
+    /* margin: auto; */
+    /* padding: 1rem; */
+    padding-left: 0px;
+    gap: 1rem;
+
+}
+.alldetail-section{
+    /* width: 96%; */
+    /* margin: auto; */
+    background-color:#F2F2F2;
+}
+.alldetail-view-section{
+    background-color: #F2F2F2;
+    height: 100vh;
+}
+
+/* ! styling End for alldetail section */
+
+/* todo : Let's Do Styling for left side list */
+
+.current{
+    /* background-color: #665353 !important; */
+    background-color: #4c95ee !important;
+    color: white;
+}
+
+.left-main-section{
+    /* border: 2px solid green; */
+}
+
+.left-main-section div ul{
+    /* margin: 10px; */
+    /* border: 2px solid red; */
+    list-style-type: none;
+    padding: 1rem 0.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #0A5ED7;
+    height: 100vh;
+}
+.left-main-section div ul li{
+    /* border: 2px solid ; */
+    width: 15rem;
+    height: 2.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* background-color: #817171; */
+    color: white;
+    border-radius: 1rem;
+    height:3rem;
+    font-size: large;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideIn 1s forwards ;
+    padding-left: 0.3rem;
+}
+
+.left-main-section div ul li:hover{
+    transform: scale(1.03) !important;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* todo : Let's Do Styling for right side list */
+.right-section-main{
+    /* border: 2px solid magenta; */
+    /* width:85%; */
+    /* padding: auto; */
+    margin-top: 1rem;
+}
+.right-section-main ul{
+    /* border: 2px solid ; */
+    /* padding: 0px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.right-section-main ul li{
+    /* border: 1px solid red; */
+    list-style: none;
+}
+.right-section-main ul li h5{
+    color: rgb(99, 4, 4);
+    font-weight: 600;
+}
+.right-section-main ul li p{
+    /* font-family: sans-serif; */
+    font-size: 0.8rem;
+    color: grey;
+}
+.right-section-main div ul li img{
+    height: 10rem;
+}
+.success_wish{
+    color: red;
+    cursor: pointer;
+}
+.whishlist{
+    /* color: red; */
+}
+.whishlist:hover{
+    color: red;
+    cursor: pointer;
+}
+.flex-div-cart{
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    gap: 1rem;
+}
+
+@media (max-width:1102px){
+    .right-section-main{
+        border: 2px solid magenta;
+    }
+    .right-section-main img{
+        /* width: 10px; */
+    }
+    .right-cart{
+        border: 2px solid green !important;
+        width: 20rem !important;
+    }
+}
+@media (max-width:1480px){
+    .right-cart{
+        border: 2px solid green !important;
+        width: 22rem !important;
+    }
+}
+@media (max-width:1070px){
+    .right-cart{
+        border: 2px solid green !important;
+        width: 14rem !important;
+    }
+}
+
+/*! styling for right side ends here*/
+
+/*todo : Let's Do styling For Signup Form*/
+.signup-form-section{
+    /* border: 2px solid red; */
+    position: absolute;
+    transform: translate(-200%,30%);
+    top:50%;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 30rem;
+    border-radius: 2rem;
+}
+.signup-form-section form input{
+    background-color: #F2F2F2;
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+    height: 2.5rem;
+    /* margin-top: -10px; */
+    /* margin: auto; */
+    width: 24.3rem;
+    height: 3.5rem;
+    border-radius: 0.4rem;
+    /* border: 2px solid; */
+}
+.form-div1{
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 2rem;
+}
+.form-div1 input{
+    width: 11rem;
+    /* border: 2px solid; */
+}
+.ss-div1,.ss-f1{
+    margin: 1.3rem 2.8rem;
+}
+.ss-f1{
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.9rem; */
+}
+.common-invalid-input{
+    color: red;
+    font-size: small;
+    /* line-height: px; */
+    /* border: 1px solid; */
+    /* margin-top: 0.5rem; */
+}
+ .signup-form-section form .flex-div{
+    /* border: 2px solid green; */
+    height:min-content;
+    margin-top: 0.8rem;
+    /* height: 4.4rem; */
+ }
+.ss-f1 div:last-child{
+    margin-top: 1rem;
+    /* border: 2px solid; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.ss-f1 div:last-child p{
+    /* border: 1px solid; */
+    margin: auto;
+}
+.ss-f1 div:last-child p span{
+    color: #0A5ED7;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+@media (max-width:1420px){
+    .signup-form-section{
+        transform: translate(-150%,30%);
+    }
+}
+@media (max-width:950px){
+    .signup-form-section{
+        transform: translate(-130%,30%);
+    }
+}
+
+/* ! Sign up for styling ends here */
+
+/* todo Login For styling starts here */
+.login-section{
+    position: absolute;
+    transform: translate(-280%,30%);
+    top: 100px;
+    /* background: #F2F2F2; */
+    /* background: white; */
+    /* background: linear-gradient(56deg,rgba(242, 242, 242, 1) 0%, rgba(255, 255, 255, 1) 100%); */
+    background-color:white ;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 2.5rem;
+}
+.login-section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.login-section form p{
+    color: red;
+    font-size: 0.8rem;
+    margin: 0px;
+}
+.login-section form input{
+    background-color: transparent;
+    color: #8C4152;
+    font-size: 0.8rem;
+    padding-left: 0.4rem;
+    width: 15rem;
+}
+.input-div{
+    border-bottom: 2px solid #9B8EA3;
+    display: flex;
+    align-items: center;
+    /* gap: 0.3rem; */
+}
+.login-section form input::placeholder{
+    color: #8C4152;
+    opacity: 1;
+}
+.login-section form div button{
+    /* width: 200%; */
+    /* border: 2px solid red; */
+    width: 15rem;
+    height: 3rem;
+    /* background: #480D40;
+    background: linear-gradient(56deg,rgba(72, 13, 64, 1) 0%, rgba(84, 96, 194, 1) 100%); */
+    /* background: #8C4152;
+background: linear-gradient(56deg,rgba(140, 65, 82, 1) 0%, rgba(248, 248, 248, 1) 100%); */
+background-color: #9B8EA3;
+/* background: linear-gradient(56deg,rgba(155, 142, 163, 1) 0%, rgba(248, 248, 248, 1) 100%); */
+    border: none;
+    border-radius: 2rem;
+    color: white;
+}
+
+@media (max-width:1370px){
+    .login-section{
+         transform: translate(-200%,30%);
+    }
+}
+@media (max-width:1100px){
+    .login-section{
+        /* border: 2px solid; */
+        transform: translate((-100%,30%));
+    }
+}
+
+/* ! Let's Do Style for userprofile page */
+.userprofile-section{
+    border: 2px solid #F2F2F2;
+    background-color: #F2F2F2;
+}
+.userprofile-section img{
+    height: 10rem;
+    width: 20rem;
+    border-radius: 1rem;
+}
+.profile-div1{
+    /* align-items: center; */
+    border: 1px solid #718092;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-top: 0.7rem;
+    border-radius: 0.5rem;
+}
+.profile-div2{
+    margin-top: 2rem;
+}
+.profile-div1 div p span{
+    font-weight: 600;
+}
+.course-group{
+    /* border: 1px solid #718092; */
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.course_div{
+    width: 90%;
+    margin: auto;
+    border: 1px solid grey;
+    padding: 1rem 0rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.course_div div div{
+    /* border: 2px solid green; */
+    margin-bottom: 1rem;
+}
+.course-group div{
+    /* border: 2px solid; */
+    line-height: 0.7rem;
+    width: 15rem;
+}
+
+/* //todo userprofile only in that wishlist section */
+.wishlist-div{
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+}
+.wishlist-div div div{
+    /* border: 2px solid red; */
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+}
+.wishlist-div div{
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.disenroll-checked{
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    padding: 0.3rem 0.4rem;
+    margin-left: 84% !important;
+    margin-top: 0.5rem;
+}

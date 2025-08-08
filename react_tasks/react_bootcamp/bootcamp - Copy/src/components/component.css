@@ -1,0 +1,43 @@
+/* todo : Let's Do styling for OneDetail Section */
+.individual-section{
+    /* border: 2px solid red; */
+    background-color: #F2F2F2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:flex-start; */
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 5rem 10rem;
+}
+.individual-section button{
+    /* background-color: rgba(127, 3, 131, 0.267); */
+    width: 10rem;
+}
+.individual-section p{
+    font-size: 1rem;
+    color: grey;
+}
+.individual-section p span{
+    font-weight: 700;
+    color: black;
+    font-size: 1.2rem;
+}
+.individual-section div div img{
+    width: 25rem;
+    height: 13rem;
+    border-radius: 1rem;
+}
+.individual-div11{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.individual-div1{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}

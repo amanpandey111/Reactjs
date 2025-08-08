@@ -1,0 +1,30 @@
+#main-container{
+    /* border: 2px solid red; */
+    width: 75%;
+    margin: auto;
+}
+#main-container ul{
+    /* border: 2px solid green; */
+    margin-top: 30px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    line-height: 30px;
+}
+#main-container ul li{
+    /* border: 3px solid yellow; */
+    width: 450px;
+    /* border: 2px solid blue; */
+    background-color:black;
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+}
+#main-container ul li img{
+    /* border: 3px solid magenta; */
+    display: block;
+    margin: auto;
+    width: 200px;
+}

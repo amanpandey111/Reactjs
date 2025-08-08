@@ -1,0 +1,17 @@
+.image-li{
+    /* border: 2px solid red; */
+}
+.image-li img{
+    /* border: 2px solid green; */
+    width: 200px;
+    margin-bottom: 20px;
+}
+.button-li button{
+    width: 100%;
+    /* border: 3px solid orange; */
+}
+li{
+    border: 2px solid grey;
+    /* border: none; */
+    box-shadow: 10x 10px 10px rgb(153, 26, 26);
+}

@@ -1,0 +1,11 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"T-shirt",
+            "brand":"sony",
+            "color":"white",
+            "price":1200
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+[
+    {
+      "id": "69",
+      "product": "T-Shirt",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSmy0sp9Fygcnt-G1deDod7gGFlmww4CayOn0pYnJGqHtnz-maKWA2K7uPmyhQxUt-d9ORTch3kJ42alGcTooyGOrgwz4DVUK_O6MqyL5pS1HUOB9iVnmIIE2A",
+      "company": "Roadster",
+      "model": "Solid Cotton",
+      "price": "499.00",
+      "category": "MensWear",
+      "description": "Men Solid Round Neck Pure Cotton T-Shirt."
+    },
+    {
+      "id": "70",
+      "product": "Shirt",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQr1JN0inDnhVPNZnLrpmsQoRy2CYL_2wcY2bm_vdNIB0vhlzi6vwNPLi8F_MKXSTjk-VvO_Z2yARTZmdrFq1E7BXRbcB-ViCxShmM4cU6D96YnXLdmOYPMjFo",
+      "company": "Highlander",
+      "model": "Casual Slim Fit",
+      "price": "699.00",
+      "category": "MensWear",
+      "description": "Men Slim Fit Checkered Casual Shirt."
+    },
+    {
+      "id": "71",
+      "product": "Jeans",
+      "image": "https://image.hm.com/assets/hm/58/4e/584ee89ca533bbd50b0af80ad9856b5bdec4239b.jpg?imwidth=1536",
+      "company": "Levi's",
+      "model": "511 Slim Fit",
+      "price": "1999.00",
+      "category": "MensWear",
+      "description": "Men 511 Slim Fit Mid Rise Jeans."
+    },
+    {
+      "id": "72",
+      "product": "Track Pants",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRYG-YecGQ1It32J_vHYjzMZvS-u5LTZZZiH6orexyUujk6gHk1eiP1fxFTFgKHWdC8yzegqMg5V6Np5l1KcH5g61YkVZs_--RQc9XrC6VpEQVXJ5BqBNz3qw",
+      "company": "ADIDAS",
+      "model": "Regular Fit",
+      "price": "1599.00",
+      "category": "MensWear",
+      "description": "Regular Fit Men Black Polyester Track Pants."
+    },
+    {
+      "id": "73",
+      "product": "Jacket",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSNoxgMmw0FWmrNuvx5DN9XMDVF7CjRxo6cklbHTr9B3Ndx4oYyl15UU0uveaaLYVkC74DlRaMYQcHRLxAV39ouH9047_cK5RM1cNORLb5DQx-I5KvLGxyg6A",
+      "company": "Puma",
+      "model": "Windcheater",
+      "price": "2499.00",
+      "category": "MensWear",
+      "description": "Men Solid Windcheater with Zip Closure."
+    },
+    {
+      "id": "74",
+      "product": "Sneakers",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRpqzCNxfneEPurYEEH_iKd1GNallP2dcBtVZMn_8KRdjJovPsz9A9tD3kEUX57HNUaGzylbBBETVYXQxRR4HNHP0LmB9v72jidzEoRlYlO-j_Cz7DDBo-6ovM",
+      "company": "Nike",
+      "model": "Air Max",
+      "price": "5999.00",
+      "category": "MensWear",
+      "description": "Men's casual sneakers with cushioned soles and breathable material."
+    },
+    {
+      "id": "75",
+      "product": "Wrist Watch",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTxTRWb_6Gn23QELonF0X71yT7ATGkiAUIvfJQ3fBCk5tIlU1BGP93z35xf28_pISp6FcAm5D9PSOrSlCWM5YG9Mhv3IbJ2MTN8TjlorpzGo4diQ_dbRk9i",
+      "company": "Fossil",
+      "model": "Chronograph",
+      "price": "7499.00",
+      "category": "MensWear",
+      "description": "Men's chronograph watch with stainless steel strap."
+    },
+    {
+      "id": "76",
+      "product": "Cap",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcROw95qy_LTMKoPRTO44Ow76NVQSi7HoHH1sD4qqXat-7dNOWeu594aWi9c_N3osuyiDZfVk1eApR3u_ioo0cX_rD-nB9fKxazePeh3eUKz7zkdjcNlwh5N",
+      "company": "Adidas",
+      "model": "Baseball Cap",
+      "price": "799.00",
+      "category": "MensWear",
+      "description": "Classic adjustable baseball cap with logo embroidery."
+    },
+    {
+      "id": "77",
+      "product": "Sunglasses",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQQ-N8F_uXbNNkyE-qXxYvLMKsLpEul-WTdlcSKajXFkaGtFprztSNlJUHLpD_zZlRoj8RG9eoS2o0cf1la_NUHQ_7JaE76N3zLaoPzyCs_pY_xO5u9hVWXhA",
+      "company": "Ray-Ban",
+      "model": "Aviator",
+      "price": "6499.00",
+      "category": "MensWear",
+      "description": "Stylish aviator sunglasses with UV protection lenses."
+    },
+    {
+      "id": "78",
+      "product": "Backpack",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQrtWnjNF2HykOL0rDMLNc8nGQXKotoflyqgeI4qQFbU4FMvBJiMT-lc7DqL9kgsVwkW2KzLqKlHo_m-_O6etvTAkOUFUnjHXw3hbiHOR3RLv4tFvFF0GVJ",
+      "company": "Wildcraft",
+      "model": "35L Backpack",
+      "price": "1999.00",
+      "category": "MensWear",
+      "description": "Durable 35L backpack ideal for travel and daily use."
+    },
+    {
+      "id": "79",
+      "product": "Wallet",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSxrRyl6UUTpX8dAk1-_OQTonLIpmENB0to15CiRxnxr7o-OhdVw6nAraADSAvriyCMTnbPBF5g81ZFqIac8HKgCq5pjff2KTiRGx3ebmJc19ndatiw9SD1OW4",
+      "company": "Tommy Hilfiger",
+      "model": "Leather Wallet",
+      "price": "2499.00",
+      "category": "MensWear",
+      "description": "Premium leather wallet with multiple card slots."
+    }
+  ]
+  

@@ -1,0 +1,16 @@
+section{
+    border: 2px solid red;
+    width: 40%;
+    /* margin: auto; */
+    padding: 2rem;
+}
+.ul-class{
+    list-style-type: none;
+}
+.ul-class li{
+    border: 2px solid green;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+}

@@ -1,0 +1,543 @@
+
+[
+    {
+  "id": 1,
+  "category": "web development",
+  "courses": [
+    {
+      "id": 11,
+      "name": "MERN",
+      "instructor": "john doe",
+      "description": "MERN stands for MongoDB, Express.js, React, and Node.js — a popular JavaScript-based full-stack development stack for building dynamic web applications.",
+      "image": "/assets/web_development/mern.jpg",
+      "location": "online",
+      "price": 299,
+      "rating": 4.5,
+      "reviewCount": 52,
+      "enrolled": false
+    },
+    {
+      "id": 12,
+      "name": "MEAN",
+      "instructor": "Jane Smith",
+      "description": "MEAN stands for MongoDB, Express.js, Angular, and Node.js — a full-stack JavaScript framework used to build dynamic web applications using a single language.",
+      "image": "/assets/web_development/mean.jpg",
+      "location": "online",
+      "price": 289,
+      "rating": 4.2,
+      "reviewCount": 38,
+      "enrolled": false
+    },
+    {
+      "id": 13,
+      "name": "Python Full Stack",
+      "instructor": "Alice Johnson",
+      "description": "Python Full Stack development involves Python-based frameworks like Django or Flask on the backend, with frontend technologies like HTML, CSS, and JavaScript.",
+      "image": "/assets/web_development/python.jpg",
+      "location": "online",
+      "price": 279,
+      "rating": 4.8,
+      "reviewCount": 65,
+      "enrolled": false
+    },
+    {
+      "id": 14,
+      "name": "Java Full Stack",
+      "instructor": "Robert Brown",
+      "description": "Java Full Stack development includes Spring Boot, Hibernate for the backend and frontend technologies like HTML, CSS, JavaScript, and React/Angular.",
+      "image": "/assets/web_development/java.png",
+      "location": "online",
+      "price": 299,
+      "rating": 4.0,
+      "reviewCount": 25,
+      "enrolled": false
+    }
+  ]
+    },
+    {
+  "id": 2,
+  "category": "Data Science",
+  "courses": [
+    {
+      "id": 21,
+      "name": "Data Analysis with Python",
+      "instructor": "Emily Carter",
+      "description": "Learn to analyze, clean, and visualize data using Python libraries such as Pandas, NumPy, and Matplotlib to derive meaningful insights.",
+      "image": "/assets/data_science/py_da.jpg",
+      "location": "online",
+      "price": 499,
+      "rating": 4.7,
+      "reviewCount": 78,
+      "enrolled": false
+    },
+    {
+      "id": 22,
+      "name": "Machine Learning",
+      "instructor": "Michael Thompson",
+      "description": "An introduction to machine learning algorithms like Linear Regression, KNN, Decision Trees, and more using Python and Scikit-learn.",
+      "image": "/assets/data_science/ml.jpg",
+      "location": "online",
+      "price": 599,
+      "rating": 4.3,
+      "reviewCount": 62,
+      "enrolled": false
+    },
+    {
+      "id": 23,
+      "name": "SQL for Data Science",
+      "instructor": "Sarah Williams",
+      "description": "Learn and Master SQL to Create Database and extract, manipulate, and analyze data from relational databases — a critical skill in any data science role.",
+      "image": "/assets/data_science/sql_ds.jpg",
+      "location": "online",
+      "price": 399,
+      "rating": 4.9,
+      "reviewCount": 91,
+      "enrolled": false
+    },
+    {
+      "id": 24,
+      "name": "Python for Data Science",
+      "instructor": "David Kim",
+      "description": "Learn Python fundamentals tailored for data science including loops, functions, and working with data using libraries like Pandas and NumPy.",
+      "image": "/assets/data_science/py_ds.jpg",
+      "location": "online",
+      "price": 299,
+      "rating": 4.5,
+      "reviewCount": 55,
+      "enrolled": false
+    }
+  ]
+    },
+    {
+  "id": 3,
+  "category": "Mobile App Development",
+  "courses": [
+    {
+      "id": 31,
+      "name": "Android App Development (Java)",
+      "instructor": "Ravi Sharma",
+      "description": "Learn to build native Android applications using Java and Android Studio, covering layouts, activities, and APIs.",
+      "image": "/assets/app_development/java.jpg",
+      "location": "online",
+      "price": 549,
+      "rating": 4.1,
+      "reviewCount": 45,
+      "enrolled": false
+    },
+    {
+      "id": 32,
+      "name": "Android App Development (Kotlin)",
+      "instructor": "Priya Mehta",
+      "description": "Master Android development with Kotlin, Google's preferred language for building Android apps.",
+      "image": "/assets/app_development/kotlin.png",
+      "location": "online",
+      "price": 599,
+      "rating": 4.6,
+      "reviewCount": 70,
+      "enrolled": false
+    },
+    {
+      "id": 33,
+      "name": "iOS App Development (Swift)",
+      "instructor": "Alex Wilson",
+      "description": "Learn iOS development using Swift and Xcode to build sleek and performant apps for iPhones and iPads.",
+      "image": "/assets/app_development/swift.jpg",
+      "location": "online",
+      "price": 649,
+      "rating": 4.4,
+      "reviewCount": 58,
+      "enrolled": false
+    },
+    {
+      "id": 34,
+      "name": "React Native App Development",
+      "instructor": "Sneha Kapoor",
+      "description": "Build mobile apps using React Native, covering components, navigation, and integrate native modules.",
+      "image": "/assets/app_development/reactn.jpg",
+      "location": "online",
+      "price": 499,
+      "rating": 4.7,
+      "reviewCount": 82,
+      "enrolled": false
+    }
+  ]
+    },
+    {
+  "id": 4,
+  "category": "DevOps & Cloud Computing",
+  "courses": [
+    {
+      "id": 41,
+      "name": "AWS Cloud Fundamentals",
+      "instructor": "Nikita Rao",
+      "description": "Learn the basics of Amazon Web Services (AWS), including EC2, S3 to build scalable cloud applications.",
+      "image": "/assets/cloud/aws.jpg",
+      "location": "online",
+      "price": 699,
+      "rating": 4.5,
+      "reviewCount": 68,
+      "enrolled": false
+    },
+    {
+      "id": 42,
+      "name": "Microsoft Azure Essentials",
+      "instructor": "Arjun Desai",
+      "description": "Understand core Azure services like Virtual Machines and App Services for cloud-based deployment.",
+      "image": "/assets/cloud/azure.png",
+      "location": "online",
+      "price": 749,
+      "rating": 4.2,
+      "reviewCount": 51,
+      "enrolled": false
+    },
+    {
+      "id": 43,
+      "name": "Google Cloud Platform Basics",
+      "instructor": "Meera Iyer",
+      "description": "Explore GCP services such as Compute Engine and Cloud Storage for cloud computing and data analytics.",
+      "image": "/assets/cloud/gcp.jpg",
+      "location": "online",
+      "price": 799,
+      "rating": 4.8,
+      "reviewCount": 85,
+      "enrolled": false
+    },
+    {
+      "id": 44,
+      "name": "Docker & Kubernetes",
+      "instructor": "Rahul Nair",
+      "description": "Learn containerization with Docker and orchestration with Kubernetes for building scalable DevOps pipelines.",
+      "image": "/assets/cloud/dk.jpg",
+      "location": "online",
+      "price": 599,
+      "rating": 4.6,
+      "reviewCount": 72,
+      "enrolled": false
+    }
+  ]
+    },
+    {
+  "id": 5,
+  "category": "Cybersecurity",
+  "courses": [
+    {
+      "id": 51,
+      "name": "Ethical Hacking Basics",
+      "instructor": "Karan Malhotra",
+      "description": "Get introduced to ethical hacking concepts, penetration testing, and tools like Metasploit, Nmap, and Burp Suite.",
+      "image": "/assets/cybersecurity/eh.jpg",
+      "location": "online",
+      "price": 799,
+      "rating": 4.3,
+      "reviewCount": 60,
+      "enrolled": false
+    },
+    {
+      "id": 52,
+      "name": "Network Security Essentials",
+      "instructor": "Shweta Pillai",
+      "description": "Learn how to secure networks using firewalls, IDS/IPS systems, VPNs, and best practices for network protection.",
+      "image": "/assets/cybersecurity/nse.jpg",
+      "location": "online",
+      "price": 849,
+      "rating": 4.7,
+      "reviewCount": 75,
+      "enrolled": false
+    },
+    {
+      "id": 53,
+      "name": "Web Application Security",
+      "instructor": "Amit Khanna",
+      "description": "Understand OWASP Top 10 vulnerabilities and how to secure web applications against common cyber threats.",
+      "image": "/assets/cybersecurity/was.png",
+      "location": "online",
+      "price": 899,
+      "rating": 4.5,
+      "reviewCount": 68,
+      "enrolled": false
+    },
+    {
+      "id": 54,
+      "name": "SOC & SIEM Tools",
+      "instructor": "Riya Menon",
+      "description": "Explore the functioning of Security Operations Centers (SOC) and hands-on training with SIEM tools like Splunk.",
+      "image": "/assets/cybersecurity/ss.jpg",
+      "location": "online",
+      "price": 949,
+      "rating": 4.9,
+      "reviewCount": 88,
+      "enrolled": false
+    }
+  ]
+    },
+    {
+  "id": 6,
+  "category": "Software Testing & QA",
+  "courses": [
+    {
+      "id": 61,
+      "name": "Manual Testing",
+      "instructor": "Nidhi Verma",
+      "description": "Learn the fundamentals of software testing, including test case design, bug tracking, and SDLC/STLC processes.",
+      "image": "/assets/testing/mt.png",
+      "location": "online",
+      "price": 349,
+      "rating": 4.2,
+      "reviewCount": 55,
+      "enrolled": false
+    },
+    {
+      "id": 62,
+      "name": "Automation Testing with Selenium",
+      "instructor": "Rohit Shetty",
+      "description": "Master Selenium WebDriver to automate web application testing with Java and TestNG frameworks.",
+      "image": "/assets/testing/sat.jpg",
+      "location": "online",
+      "price": 549,
+      "rating": 4.6,
+      "reviewCount": 70,
+      "enrolled": false
+    },
+    {
+      "id": 63,
+      "name": "API Testing",
+      "instructor": "Sneha Rao",
+      "description": "Understand how to test RESTful APIs using tools like Postman and automate with RestAssured in Java.",
+      "image": "/assets/testing/api.jpg",
+      "location": "online",
+      "price": 499,
+      "rating": 4.4,
+      "reviewCount": 62,
+      "enrolled": false
+    },
+    {
+      "id": 64,
+      "name": "Performance Testing with JMeter",
+      "instructor": "Vikram Joshi",
+      "description": "Learn how to evaluate application performance and scalability using Apache JMeter for load testing.",
+      "image": "/assets/testing/jm.jpg",
+      "location": "online",
+      "price": 449,
+      "rating": 4.1,
+      "reviewCount": 48,
+      "enrolled": false
+    }
+  ]
+    },
+    {
+  "id": 7,
+  "category": "Blockchain Development",
+  "courses": [
+    {
+      "id": 71,
+      "name": "Ethereum & Solidity",
+      "instructor": "Ravi Khandelwal",
+      "description": "Learn Ethereum fundamentals and how to write smart contracts using Solidity on the Ethereum blockchain.",
+      "image": "/assets/blockchain/eas.jpg",
+      "location": "online",
+      "price": 899,
+      "rating": 4.4,
+      "reviewCount": 65,
+      "enrolled": false
+    },
+    {
+      "id": 72,
+      "name": "Smart Contracts",
+      "instructor": "Anjali Mehta",
+      "description": "Understand the design, development, and deployment of smart contracts for decentralized applications.",
+      "image": "/assets/blockchain/sc.jpg",
+      "location": "online",
+      "price": 949,
+      "rating": 4.7,
+      "reviewCount": 78,
+      "enrolled": false
+    },
+    {
+      "id": 73,
+      "name": "Web3.js",
+      "instructor": "Imran Qureshi",
+      "description": "Use Web3.js to interact with Ethereum blockchain from web interfaces and connect frontend with smart contracts.",
+      "image": "/assets/blockchain/web3.jpg",
+      "location": "online",
+      "price": 799,
+      "rating": 4.2,
+      "reviewCount": 52,
+      "enrolled": false
+    },
+    {
+      "id": 74,
+      "name": "NFT & dApp Development",
+      "instructor": "Pooja Rathi",
+      "description": "Build and deploy NFTs and decentralized applications using Solidity, IPFS, and blockchain development tools.",
+      "image": "/assets/blockchain/nft.jpg",
+      "location": "online",
+      "price": 999,
+      "rating": 4.9,
+      "reviewCount": 90,
+      "enrolled": false
+    }
+  ]
+    },
+    {
+  "id": 8,
+  "category": "Game Development",
+  "courses": [
+    {
+      "id": 81,
+      "name": "Unity (C#)",
+      "instructor": "Rahul Deshmukh",
+      "description": "Learn to build 2D and 3D games using Unity engine and C#, covering game physics, animations, and scripting.",
+      "image": "/assets/game_development/c.jpg",
+      "location": "online",
+      "price": 599,
+      "rating": 4.5,
+      "reviewCount": 72,
+      "enrolled": false
+    },
+    {
+      "id": 82,
+      "name": "Unreal Engine (C++)",
+      "instructor": "Sneha Kapoor",
+      "description": "Master Unreal Engine with C++ to develop high-performance games with realistic graphics and physics.",
+      "image": "/assets/game_development/ue.png",
+      "location": "online",
+      "price": 649,
+      "rating": 4.8,
+      "reviewCount": 85,
+      "enrolled": false
+    },
+    {
+      "id": 83,
+      "name": "2D/3D Game Design",
+      "instructor": "Manish Tiwari",
+      "description": "Understand game design principles, level design, storytelling, and character development for 2D/3D games.",
+      "image": "/assets/game_development/tt.jpg",
+      "location": "online",
+      "price": 499,
+      "rating": 4.3,
+      "reviewCount": 60,
+      "enrolled": false
+    },
+    {
+      "id": 84,
+      "name": "Mobile Game Development",
+      "instructor": "Kriti Sharma",
+      "description": "Build engaging mobile games for Android and iOS using tools like Unity and Godot, with optimization tips.",
+      "image": "/assets/game_development/mg.jpg",
+      "location": "online",
+      "price": 549,
+      "rating": 4.6,
+      "reviewCount": 78,
+      "enrolled": false
+    }
+  ]
+    },
+    {
+  "id": 9,
+  "category": "Data Engineering",
+  "courses": [
+    {
+      "id": 91,
+      "name": "ETL Pipelines",
+      "instructor": "Ankit Bansal",
+      "description": "Learn to design and implement ETL (Extract, Transform, Load) pipelines to move and transform data efficiently.",
+      "image": "/assets/data_engineer/etl.jpg",
+      "location": "online",
+      "price": 749,
+      "rating": 4.3,
+      "reviewCount": 58,
+      "enrolled": false
+    },
+    {
+      "id": 92,
+      "name": "Apache Airflow",
+      "instructor": "Meera Iyer",
+      "description": "Master workflow orchestration with Apache Airflow to schedule, monitor, and manage data pipelines.",
+      "image": "/assets/data_engineer/aa.jpg",
+      "location": "online",
+      "price": 799,
+      "rating": 4.7,
+      "reviewCount": 75,
+      "enrolled": false
+    },
+    {
+      "id": 93,
+      "name": "Spark & Kafka",
+      "instructor": "Naveen Patil",
+      "description": "Work with Apache Spark for big data processing and Kafka for real-time streaming and data ingestion.",
+      "image": "/assets/data_engineer/sk.jpg",
+      "location": "online",
+      "price": 849,
+      "rating": 4.5,
+      "reviewCount": 66,
+      "enrolled": false
+    },
+    {
+      "id": 94,
+      "name": "Data Warehousing",
+      "instructor": "Ritika Sen",
+      "description": "Understand how to design and query modern data warehouses using tools like Amazon Redshift.",
+      "image": "/assets/data_engineer/sr.jpg",
+      "location": "online",
+      "price": 899,
+      "rating": 4.8,
+      "reviewCount": 82,
+      "enrolled": false
+    }
+  ]
+    },
+    {
+  "id": 10,
+  "category": "Digital Marketing",
+  "courses": [
+    {
+      "id": 101,
+      "name": "SEO (Search Engine Optimization)",
+      "instructor": "Pallavi Reddy",
+      "description": "Learn techniques to improve website rankings on search engines and drive organic traffic.",
+      "image": "/assets/digital_marketing/seo.jpg",
+      "location": "online",
+      "price": 449,
+      "rating": 4.4,
+      "reviewCount": 62,
+      "enrolled": false
+    },
+    {
+      "id": 102,
+      "name": "Social Media Marketing",
+      "instructor": "Arjun Malhotra",
+      "description": "Create effective campaigns on platforms like Facebook, Instagram, and LinkedIn to engage audiences.",
+      "image": "/assets/digital_marketing/smm.jpg",
+      "location": "online",
+      "price": 399,
+      "rating": 4.2,
+      "reviewCount": 55,
+      "enrolled": false
+    },
+    {
+      "id": 103,
+      "name": "Google Ads (PPC)",
+      "instructor": "Shruti Nair",
+      "description": "Master pay-per-click advertising with Google Ads, including keyword research and ad targeting.",
+      "image": "/assets/digital_marketing/ga.jpg",
+      "location": "online",
+      "price": 499,
+      "rating": 4.6,
+      "reviewCount": 70,
+      "enrolled": false
+    },
+    {
+      "id": 104,
+      "name": "Email Marketing & Automation",
+      "instructor": "Harish Goyal",
+      "description": "Design, send, and optimize email campaigns using tools like Mailchimp and marketing automation platforms.",
+      "image": "/assets/digital_marketing/ema.jpg",
+      "location": "online",
+      "price": 349,
+      "rating": 4.1,
+      "reviewCount": 48,
+      "enrolled": false
+    }
+  ]
+    }
+]

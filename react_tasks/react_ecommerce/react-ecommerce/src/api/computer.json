@@ -1,0 +1,102 @@
+[
+  {
+    "id": "23",
+    "product": "Laptop",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRC9g4vcLscPoYmArZAlrGmMLUTDUafEDm6WsYy79z97K-GkQiHih9MHHLnve7CzyMUJhnMlBd4JHXfT0te6fGuyXn_sm2yNxtsQZbM7wt9b7dL0tsM_qq9tg",
+    "company": "Dell",
+    "model": "Inspiron 15 3520",
+    "price": "599.99",
+    "category": "Computer",
+    "description": "15.6-inch FHD laptop with Intel Core i5, 8GB RAM, and 512GB SSD."
+  },
+  {
+    "id": "24",
+    "product": "Laptop",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT67RQX_bZkPzabpu4TabH1a6J2BbAXL7mKy90lJyACGphg6M5U48adm6ek8eFsy7EieXmosxBaIJmruc-BA6-ClaJn3egEPuj9Z6CWCNuysf91sJO-7l8cjg",
+    "company": "Dell",
+    "model": "Pavilion 14",
+    "price": "649.99",
+    "category": "Computer",
+    "description": "14-inch laptop with AMD Ryzen 5, 16GB RAM, and 512GB SSD."
+  },
+  {
+    "id": "25",
+    "product": "Laptop",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRuNDdHXN39K6-Xrhsnwuegz8VAfjx9MCJQcQpBjHzrv8d3ddue84UovKank4DfMmWD4LSjTyS28ZBgYe3IfnmXj6Y50-T4iUqkYOPch4NOGfQ_hU-8zeHW3Q",
+    "company": "Lenovo",
+    "model": "IdeaPad Slim 3",
+    "price": "549.99",
+    "category": "Computer",
+    "description": "15.6-inch laptop with Intel Core i3, 8GB RAM, and 256GB SSD."
+  },
+  {
+    "id": "26",
+    "product": "Laptop",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTsvtOsJcObMweP1EpRkWcR9_rFhZNOawYicw8KPaQuJGaxP_B9wVu76QZpXj4TKH64AwVTlYsUT-WJBz_G7b34CKxFGNs293k72gqE4bCMr7_v5iXtY9OwVQ",
+    "company": "Acer",
+    "model": "Aspire 5",
+    "price": "499.99",
+    "category": "Computer",
+    "description": "15.6-inch laptop with AMD Ryzen 3, 8GB RAM, and 512GB SSD."
+  },
+  {
+    "id": "27",
+    "product": "Laptop",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRL0Ys-42Xb7EdJosT7sFxzs4LkcNgSwGYqlaYwHNPUXPJs7SCZ-jDxabWkjcNHeTO3JIIneW5xJiqrpGI43rH54OaPPk0fzGk0vQIuPG3u",
+    "company": "Asus",
+    "model": "VivoBook 14",
+    "price": "579.99",
+    "category": "Computer",
+    "description": "14-inch laptop with Intel Core i5, 8GB RAM, and 512GB SSD."
+  },
+  {
+    "id": "28",
+    "product": "Laptop",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSI7mwxP1aIHHttnszIOx2lMYOAtqr4ZurfMwufMfBneioDqfH_XNOLQsnAuQf2-BAGFVp7DPAeremNSrxpTt1hYwQ06WxhKUQyc7qDAkh_dsUV6WVjwhqnjg",
+    "company": "MSI",
+    "model": "Modern 14",
+    "price": "699.99",
+    "category": "Computer",
+    "description": "14-inch laptop with Intel Core i5, 8GB RAM, and 512GB SSD."
+  },
+  {
+    "id": "29",
+    "product": "Laptop",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSLl0MWutnqkN657j913PAvWPH7sO4KB0ia1GvOHe7VH5NGfV5HSvBuBEjLAJquYy7G5mdqGrbrd1sGZdNhNoUEGBDn33tLjOTEj85-FsI0hb7yNEOeATSNIsU",
+    "company": "Apple",
+    "model": "MacBook Air M1",
+    "price": "999.99",
+    "category": "Computer",
+    "description": "13.3-inch Retina display, Apple M1 chip, 8GB RAM, 256GB SSD."
+  },
+  {
+    "id": "30",
+    "product": "Laptop",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSjaeLLFHnoJcEOlE8trjWWcVA5_256XgR3FKthlzEcxWkoQga3zcJLM6WxZwp4vm7S3aortJdiL04nK9ly8PqAMhUC8TvvUF1HHfqC9FUvX-xIBCt37Kbh",
+    "company": "Microsoft",
+    "model": "Surface Laptop Go",
+    "price": "749.99",
+    "category": "Computer",
+    "description": "12.4-inch touchscreen laptop with Intel Core i5, 8GB RAM, and 128GB SSD."
+  },
+  {
+    "id": "31",
+    "product": "Laptop",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSszpw6yPR3rjPoXaVyXv4DVFl-HZ2Jk202EuW0SEAyotF13CLivWh-dBoi9MFfkhJ9e3YnxmivgZta1N6vr5fEhx9M8hSxRktodrFOl0Od1UKXPIgjG2MULw",
+    "company": "Samsung",
+    "model": "Galaxy Book Go",
+    "price": "349.99",
+    "category": "Computer",
+    "description": "14-inch laptop with Qualcomm Snapdragon, 4GB RAM, and 128GB eUFS."
+  },
+  {
+    "id": "32",
+    "product": "Laptop",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTMQlWLwVPlAYTAzZ86EvlJ59gk1jHifK-U9Hj_p61B41hxF4Vuxi-QsbYTAvVkF-gwhXXLOL8Ur6ZpBjRgTj2Ltb2OvHV167g-OfG0oKsCpu4F70zLsIEQQw",
+    "company": "LG",
+    "model": "Gram 14",
+    "price": "1099.99",
+    "category": "Computer",
+    "description": "14-inch ultralight laptop with Intel Core i5, 8GB RAM, and 256GB SSD."
+  }
+]

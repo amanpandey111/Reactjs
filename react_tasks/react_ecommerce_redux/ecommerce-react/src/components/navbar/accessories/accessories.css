@@ -1,0 +1,223 @@
+/* //todo : Here I will apply styles for the component which are need to be displayed completely */
+
+/* //! Here I am Doing style for mobile */
+.mobile-section,.computer-section,.watch-section,.men-section,.women-section,.furniture-section,.kitchen-section,.book-section,.fridge-section,.speaker-section,
+.ac-section,.tv-section
+{
+    /* border: 2px solid blue; */
+    background-color: white;
+    margin-top: 1rem;
+    height: 100vh;
+    padding-top: 1rem;
+    /* border: 2px solid red; */
+    box-shadow: 10px 10px 10px rgb(219, 231, 219);
+}
+.mobile-section img{
+    /* border: 3px solid green; */
+    width: 180px;
+    height: 220px;
+}
+.mobile-section img:hover{
+    transform: scale(1.03);
+}
+.mobile-div-ul-grid ul li p,.computer-div-ul ul li p,.watch-div-ul ul li p,.menwear-div-ul ul li p,.women-div-ul ul li p,.furniture-div-ul ul li p,
+.book-div-ul ul li p,.fridge-div-ul ul li p,.speaker-div-ul ul li p,.ac-div-ul ul li p,.tv-div-ul ul li p
+{
+    line-height: 2rem;
+    font-size: 14px;
+    color:#7e8fab;
+}
+.mobile-div-ul-grid ul li h1,.computer-div-ul ul li h1,.watch-div-ul ul li h1,.menwear-div-ul ul li h1,.women-div-ul ul li h1,.furniture-div-ul ul li h1,
+.book-div-ul ul li h1,.fridge-div-ul ul li h1,.speaker-div-ul ul li h1,.ac-div-ul ul li h1,.tv-div-ul ul li h1
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E2D34;
+}
+.mobile-div-ul-grid ul,.computer-div-ul ul,.watch-div-ul ul,.menwear-div-ul ul,.women-div-ul ul,.furniture-div-ul ul,.book-div-ul ul,.fridge-div-ul ul,
+.speaker-div-ul ul,.ac-div-ul ul,.tv-div-ul ul
+{
+    /* border: 2px solid red; */
+    /* margin-right: 2rem; */
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 3rem;
+    width: 100%;
+    text-align: center;
+    /* gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%; */
+}
+.mobile-div-ul-grid,.computer-div-ul,.watch-div-ul,.menwear-div-ul,.women-div-ul,.furniture-div-ul,.book-div-ul,.fridge-div-ul,.speaker-div-ul,.ac-div-ul,.tv-div-ul{
+    /* border: 2px solid magenta; */
+    padding-top: 1rem;
+    display: flex;
+    /* justify-content: space-around; */
+    /* gap: 3rem; */
+}
+.mobile-div-ul-grid .form-div,.computer-div-ul .form-div,.watch-div-ul .form-div,.menwear-div-ul .form-div,.women-div-ul .form-div,.furniture-div-ul .form-div,
+.book-div-ul .form-div,.fridge-div-ul .form-div,.speaker-div-ul .form-div,.ac-div-ul .form-div,.tv-div-ul .form-div
+{
+    /* border: 2px solid; */
+    width: 15%;
+    padding-left: 2rem;
+}
+.mobile-div-ul-grid form div,.computer-div-ul form div,.watch-div-ul form div,.menwear-div-ul form div,.women-div-ul form div,.furniture-div-ul form div,
+.book-div-ul form div,.fridge-div-ul form div,.speaker-div-ul form div,.ac-div-ul form div,.tv-div-ul form div
+{
+    /* margin-left: 2rem; */
+    /* border: 2px solid; */
+    width: 17rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    height: 2rem;
+}
+.common-bg{
+    margin-left: 2rem;
+}
+
+/* //! Here we will do the styling for computer.jsx */
+.computer-div-ul img{
+    width: 200px;
+    height: 120px;
+}
+.computer-div-ul img:hover,.watch-div-ul img:hover,.menwear-div-ul img:hover,.women-div-ul img:hover,.furniture-div-ul img:hover,.book-div-ul img:hover,
+.fridge-div-ul img:hover,.speaker-div-ul img:hover,.ac-div-ul img:hover,.tv-div-ul img:hover
+{
+    transform: scale(1.03);
+}
+.watch-div-ul img{
+    width: 120px;
+    height: 150px;
+}
+.menwear-div-ul img{
+    width: 200px;
+    height: 170px;
+}
+.women-div-ul img{
+    width: 140px;
+    height: 170px;
+}
+.furniture-div-ul img{
+    width: 200px;
+    height: 150px;
+}
+.book-div-ul img{
+    width: 145px;
+    height: 160px;
+}
+.fridge-div-ul img{
+    height: 200px;
+    width: 100px;
+}
+.speaker-div-ul img{
+    height: 170px;
+    width: 120px;
+}
+.ac-div-ul img{
+    height: 80px;
+    width: 200px;
+}
+.tv-div-ul img{
+    height: 120px;
+    width: 180px;
+}
+
+/* //todo Here I am doing styling for all the component that need to be displayed with all together and with limited content */
+
+/* //! Here we are applying major styles */
+.mobile-section-some,.computer-section-some,.watch-section-some,.men-section-some,.women-section-some,.furniture-section-some,.kitchen-section-some,.book-section-some,
+.fridge-section-some,.speaker-section-some,.ac-section-some,.tv-section-some
+{
+    /* border: 2px solid green; */
+    background-color: white;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+.mobile-div-ul-some ul img{
+    width: 120px;
+    height: 150px;
+}
+.mobile-div-ul-some ul img:hover,.computer-div-ul-some ul img:hover,.watch-div-ul-some ul img:hover,.men-div-ul-some ul img:hover,.women-section-some ul img:hover,
+.furniture-div-ul-some ul img:hover,.kitchen-section-some ul img:hover,.book-section-some ul li img:hover,.fridge-section-some ul li img:hover,.tv-section-some ul li img:hover
+{
+    /* border: 2px solid red; */
+    transform: scale(1.03);
+}
+.mobile-div-ul-some ul,.computer-div-ul-some ul,.watch-div-ul-some ul,.men-div-ul-some ul,.women-section-some ul,.furniture-div-ul-some ul,.kitchen-section-some ul,
+.book-section-some ul,.fridge-section-some ul,.speaker-section-some ul,.ac-section-some ul,.tv-section-some ul
+{
+    margin-top: 1rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.mobile-div-ul-some ul li p,.computer-div-ul-some ul li p,.watch-div-ul-some ul li p,.men-div-ul-some ul li p,.women-section-some ul li p,.furniture-div-ul-some ul li p,
+.kitchen-section-some ul li p,.book-section-some ul li p,.fridge-section-some ul li p,.speaker-section-some ul li p,.ac-section-some ul li p,.tv-section-some ul li p
+{
+    font-size: 14px;
+    color:#7e8fab;
+    line-height: 1.5rem;
+}
+.mobile-div-ul-some ul li h1,.computer-div-ul-some ul li h1,.watch-div-ul-some ul li h1,.men-div-ul-some ul li h1,.women-section-some ul li h1,.furniture-div-ul-some ul li h1,
+.kitchen-section-some ul li h1,.book-section-some ul li h1,.fridge-section-some ul li h1,.speaker-section-some ul li h1,.ac-section-some ul li h1,.tv-section-some ul li h1
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E2D34;
+}
+
+/* //! Here we will apply hight, width and any optional styles */
+.computer-div-ul-some ul img{
+    width: 170px;
+    height: 110px;
+}
+.watch-div-ul-some ul img{
+    width: 140px;
+    height: 140px;
+}
+.men-div-ul-some ul img{
+    width: 200px;
+    height: 150px;
+}
+.women-section-some ul img{
+    height: 200px;
+    width: 150px;
+}
+.furniture-div-ul-some ul img{
+    width: 180px;
+    height: 150px;
+}
+.kitchen-section-some ul img{
+    width: 150px;
+    height: 130px;
+}
+.book-section-some ul img{
+    width: 150px;
+    height: 200px;
+}
+.fridge-section-some ul img{
+    height: 300px;
+    width: 150px;
+}
+.speaker-section-some ul img{
+    width: 140px;
+    height: 200px;
+}
+.ac-section-some ul img:hover,.speaker-section-some ul img:hover{
+    transform: scale(1.03);
+}
+.ac-section-some ul img{
+    width: 200px;
+    height: 70px;
+}
+.tv-section-some ul img{
+    width: 200px;
+    height: 130px;
+}

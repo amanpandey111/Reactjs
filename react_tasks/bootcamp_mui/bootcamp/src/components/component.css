@@ -1,0 +1,32 @@
+/* Let's Do styling for OneDetail Section */
+@media (max-width:1140px){
+    .individual-section div div img{
+        height: auto;
+        width: auto;
+    }
+    .individual-section{
+        padding: 8rem 0rem !important;
+    }
+}
+@media (max-width:970px){
+    .individual-section{
+        /* border: 2px solid red; */
+        padding: 5rem 1rem;
+    }
+}
+@media (max-width:660px){
+    .individual-section{
+        /* border: 2px solid red; */
+        padding: 5rem 1rem;
+    }
+    .individual-div1{
+        flex-direction: column;
+    }
+}
+@media (max-width:440px){
+    .individual-section img{
+        /* border: 3px solid green; */
+        height: 140px !important;
+        width: 300px !important;
+    }
+}

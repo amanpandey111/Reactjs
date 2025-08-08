@@ -1,0 +1,124 @@
+[
+    {
+      "id": "57",
+      "product": "Refrigerator",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSGm_d5_92x8GJ9mjZE5zcntVLgJ3n0No0iGV2vRiXM4n1bSbRbT5NLTO1lmuWwWmIJEN7mn3czX9AXJx21x-E7X2-rZAFmA3m6BaQ2hPGUfthT8XQdzPOJmQ",
+      "company": "Samsung",
+      "model": "RT28T3743S8/HL",
+      "price": 24990,
+      "category": "Kitchen",
+      "description": "Energy-efficient 253L frost-free refrigerator with inverter compressor."
+    },
+    {
+      "id": "58",
+      "product": "Microwave Oven",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQLkZwrONAP-QI-gO2om3hBKvs28KlPtTmsFvHUfQSj_3rkZPsHktjFKyItZg4mczxmNz_3wmREnyt16qczlujet22lOIa5dewEneXtoS6WvC_aIKissXKGqA",
+      "company": "LG",
+      "model": "MC2846BG",
+      "price": 8999,
+      "category": "Kitchen",
+      "description": "28L microwave oven with auto cook options and touch control."
+    },
+    {
+      "id": "59",
+      "product": "Mixer Grinder",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR_Llj93SWa7OVcUEsfS5IfEti4T1A_2J-l_lR2MfpD9suxpPakQyGZ5W_bE9hfiH0o8dCZHj2EjjaCNcpZ1qTOiGy7k5YjIDfJ2OUHkGE",
+      "company": "Bajaj",
+      "model": "GX8",
+      "price": 3799,
+      "category": "Kitchen",
+      "description": "750W powerful motor with 3 jars for grinding and mixing."
+    },
+    {
+      "id": "60",
+      "product": "Induction Cooktop",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQvK2lncGsQdtwz4HnPJlrEMYKc7cVX6LkI4OHqXqmWcp4VNCClDzMukfhUH6Nsdn9PDEGv4k6GtRmgLX2Olq7EtUJbSjL2rHI5x5dZgM0zTop8a4hly7EpsQ",
+      "company": "Prestige",
+      "model": "PIC 20",
+      "price": 1999,
+      "category": "Kitchen",
+      "description": "Compact 1600W induction cooktop with 8 preset menus."
+    },
+    {
+      "id": "61",
+      "product": "Air Fryer",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTU8SUqYwdY9POFp0yAIFtp-FHVxO2ALezluV694l6Xu7W-m1wmXTOxoLHn9Ox20rYobTpmmeGnLwLCQe3AsAp9yN7-bT8kquJ79QMQVKPZDX3_0zqSYM43",
+      "company": "Philips",
+      "model": "HD9218",
+      "price": 6995,
+      "category": "Kitchen",
+      "description": "Healthy air fryer with rapid air technology for crispy food with less oil."
+    },
+    {
+      "id": "62",
+      "product": "Electric Kettle",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ4iSMOxDtm44vo3G4rj-UGxk2uZwnmmcYIcEovVt_VTNQ1m9nTDlYMoJ9rxX8HOC1LR4DkwrVovxNf8ZepUTDulmMDzSUwQwRNsxBBpvZR7uIJIiZN8qUmaac",
+      "company": "Borosil",
+      "model": "Kettle 1.5L",
+      "price": 999,
+      "category": "Kitchen",
+      "description": "1.5L electric kettle with auto shut-off and concealed heating element."
+    },
+    {
+      "id": "63",
+      "product": "Toaster",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSE3lpZA19PIJtaxW2n79tPQrx6aIj2V8aQUTGFo4eLmipFgkuB-2tOtCJmOEKaGZbERm0UrfzpeS14GEcTgh3vqDhYyxz1juz_01yvfCbLBEv80F6PlVFvyA",
+      "company": "Morphy Richards",
+      "model": "Pop-up 2 Slice",
+      "price": 1699,
+      "category": "Kitchen",
+      "description": "2-slice pop-up toaster with 7 browning settings and cancel function."
+    },
+    {
+      "id": "64",
+      "product": "Coffee Maker",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQcQGmfurafonC05xViKciXe_BR9ZHe-sY_kH8w5veUZysH6n7GDQh4BPJgLWAS_iHg3-CcpLwk0f0bcp8hwttWANqt-Wefn9H3kCLyQCJf0FnUwLt6l_FM",
+      "company": "Philips",
+      "model": "HD7432/20",
+      "price": 2999,
+      "category": "Kitchen",
+      "description": "Compact drip coffee maker with aroma twister for rich flavor."
+    },
+    {
+      "id": "65",
+      "product": "Hand Blender",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT39sWGeXYoyArzJkZwTVc5iCN8rUTP-45LyvupNwX5KfMNTgJVWhwYHtODWVl7794U9gm3leZZwr9Oca6HgEH-8kwPFk9VeCmRf919PSu2F7iaNT48CgOpYw",
+      "company": "Inalsa",
+      "model": "Robot Inox 1000",
+      "price": 2299,
+      "category": "Kitchen",
+      "description": "1000W powerful motor hand blender with variable speed control."
+    },
+    {
+      "id": "66",
+      "product": "Dishwasher",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQAQRaAjYhvg74w22X4mRkW1i5YA0GzuOINbrtXNTWeS_gWWANlOJITpa5L2tsl8BDmIQ0Ui5LLUjs4f5MYNhaRDgGtmDVHOko2GErEeuX760O4Hndqnpbo",
+      "company": "Bosch",
+      "model": "SMS66GI01I",
+      "price": 42999,
+      "category": "Kitchen",
+      "description": "12 place settings dishwasher with 6 wash programs and eco silence drive."
+    },
+    {
+      "id": "67",
+      "product": "Juicer",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQxHD_v8V98CxlPaidfuPYFLutuuUos5jIy1GHlmzjim93zI6RzURP9DQ0yWIECGCMu9KD5EMQwuVyQ6p2d4Vz6FooEwqmMSmAjX1a63VEnZNnENzqX2P3n",
+      "company": "Philips",
+      "model": "HR1855",
+      "price": 6999,
+      "category": "Kitchen",
+      "description": "Quick clean juicer with 700W motor and large feeding tube."
+    },
+    {
+      "id": "68",
+      "product": "Rice Cooker",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ_AQi5su14dTIwMKpSZ4NwAxVDW3fEWenHA7G8ksh2298ZRuGRA0mQHWTlB8bF9zXGPuYrFYgDL2slqgLuOysFronMpVMpbV4GC01ifUw6Em7P2grZ3-QAzA",
+      "company": "Panasonic",
+      "model": "SR-WA18",
+      "price": 2399,
+      "category": "Kitchen",
+      "description": "1.8L automatic rice cooker with keep-warm function and durable body."
+    }
+    
+  ]
+  

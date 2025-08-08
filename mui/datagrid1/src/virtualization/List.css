@@ -1,0 +1,36 @@
+/* src/components/List.css */
+.list-container {
+  border: 1px solid #ccc;
+  width: 300px;
+  margin: 20px auto;
+  font-family: sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.list-content {
+  max-height: 400px; /* Set a fixed height for scrolling */
+  overflow-y: auto;
+  border: 1px solid #eee;
+}
+
+.list-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box; /* Include padding and border in the height */
+}
+
+.list-item:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}

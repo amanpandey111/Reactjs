@@ -1,0 +1,17 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@1,83.5,576&display=swap'); */
+
+*{
+  margin: 0px !important;
+  padding: 0px !important;
+  box-sizing: border-box !important;
+  /* font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 556; */
+  /* font-style: italic; */
+  font-family:sans-serif ;
+}
+::-webkit-scrollbar {
+  display: none; 
+}
+/* @media (max-width:) */

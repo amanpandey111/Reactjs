@@ -1,0 +1,4 @@
+### Redux ToolKit ###
+step1 : npm install @reduxjs/toolkit  and npm i react-redux=>Provider,useDispatch
+step2 : Create a Redux Slice
+step3 : Create a Redux Store

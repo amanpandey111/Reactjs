@@ -1,0 +1,28 @@
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.product-container .product-item{
+    border: 1px solid grey;
+    /* width: 15rem; */
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.product-container img{
+    /* border: 2px solid red; */
+    width: 150px;
+    height: 250px;
+}
+
+table{
+    border: 1px solid rgb(88, 86, 86);
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid rgb(88, 86, 86);
+    padding: 0.5rem;
+}

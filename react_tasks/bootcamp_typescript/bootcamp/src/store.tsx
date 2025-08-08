@@ -1,0 +1,194 @@
+// importing actions
+import { addcourse, addlocaldata, signuptoggle,signintoggle,exists,loginuser,addInputText,userinputbox,addInputText2} from "./action"
+
+// getting the course json data
+import mycourse from "./api/mycourse.json"           // importing my entire course
+import { configureStore } from '@reduxjs/toolkit'
+
+export interface one_course{
+  description : string,
+  enrolled : boolean,
+  id : string,
+  image : string,
+  instructor : string,
+  location : string,
+  name : string,
+  price : number,
+  rating : number
+  reviewCount : number
+}
+interface addarray_course{
+    id:number,category:string,courses:one_course[]
+}
+
+// preparing my state where all the data will be there
+let initialstate = {
+    mycourse,          // don't be confused this is imported
+    course_array:[],   // course data
+    alldata:[],        // all the data
+    signup:false,      // signup toggle based on boolean 
+    userexists:false,  // to check whether user exists in local storage or not
+    signin:false,      // sigin toggle based on boolean
+    currentId:"",      // getting the current Id when user click on particular category
+    userlogin:false,   // if user credential put true else false so we can display logout and user logo,
+    userdetail:[],     // here we will store the data of user who login
+    usercourses:[],    // cusercourses after deletion anyway we won't use just for that our component get rendered
+    inputText:"",      // to toggle the ul 
+    userinput:false,   // to toggle among the input(which search all courses) and input(which searches user enrolled and wishlist courses)
+    userinputtext:""
+}
+
+// create reducer function so we can perform task
+let stateReduce = (state=initialstate,action:any) => {
+    switch (action.type) {
+        // Adding the courses related to category
+        case addcourse:
+            if(action.payload==true){
+                return{
+                    ...state,
+                    course_array:action.payload,
+                    currentId:"action.payload.id"
+                }
+            }else{
+                return{
+                    ...state,
+                    course_array:action.payload.courses,
+                    currentId:action.payload.id
+                }
+            }
+        case addlocaldata:
+            return{
+                ...state,
+                alldata:action.payload
+            }
+        case signuptoggle:
+            if(action.payload == false){
+                // console.log("I got executed");
+                return{
+                    ...state,
+                    signup:false
+                }
+            }
+            else if(action.payload=="hy"){
+                // console.log("else if got executed");
+                return{
+                    ...state,
+                    signup:!state.signup
+                }
+            }
+        case exists:
+            return {
+                ...state,
+                userexists:action.payload
+            }
+        case signintoggle:
+            if(action.payload=="toggle"){
+                return{
+                    ...state,
+                    signin:!state.signin
+                }
+            }else{
+                return{
+                    ...state,
+                    signin:false
+                }
+            }
+        case loginuser:
+            if(action.payload){
+                return {
+                    ...state,
+                    userlogin:true,
+                    signin:false,
+                    userdetail:action.user
+                }
+            }else{
+                return {
+                    ...state,
+                    userlogin:false
+                }
+            }
+        case addInputText:
+            console.log(action.payload);
+            return{
+                ...state,
+                inputText: action.payload
+            }
+        case userinputbox:
+            return{
+                ...state,
+                userinput:action.payload
+            }
+        case addInputText2:
+            console.log(action.payload);
+            return {
+                ...state,
+                userinputtext:action.payload
+            }
+        default:
+            return state
+    }
+}
+
+//  creating my store using configureStore
+const store = configureStore({
+    reducer: stateReduce
+})
+
+
+// Let's Create action creator
+// adding all courses related to a particular category
+export const addArray = (data:addarray_course|boolean)=> {
+    console.log(data);
+    return {type:addcourse,payload:data}
+}
+
+// getting the local storage data so in Login or anywhere in the app we can use
+export const addLocalData = (data:any)=> {
+    console.log("local data");
+    return{type:addlocaldata,payload:data}
+}
+
+// toggle signup button
+export const toggleSignUp = (data:boolean|string)=> {
+    // console.log(data);
+    return{type:signuptoggle, payload:data}
+}
+
+// user exists or not
+export const isUserExists = (bool:boolean|string) => {
+    console.log(bool);
+    return {type:exists,payload:bool}
+}
+
+// let's toggle the login page
+export const toggleSignIn = (data:string|boolean) => {
+    // console.log("let's toggle sign in button");
+    // console.log(data);
+    return{type:signintoggle,payload:data}
+}
+
+// Let's handle user login or logout
+export const userLogin = (bool:string|boolean,user?:any) => {
+    console.log("user Logined",bool);
+    console.log(user);
+    return{type:loginuser,payload:bool,user}
+}
+
+// Let's set the input text 
+export const setInputText = (val:boolean|string) => {
+    console.log(val);
+    return{type:addInputText,payload:val}
+}
+
+// this is setting up bool value so two input can toggle
+export const setUserInput = (bool:boolean|string) => {
+    return{type:userinputbox,payload:bool}
+}
+
+// to store the second input value
+export const setInputText2 = (val:string|boolean) => {
+    console.log(val);
+    return{type:addInputText2,payload:val}
+} 
+
+export default store 

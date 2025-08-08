@@ -1,0 +1,123 @@
+[
+  {
+    "id": "92",
+    "product": "JBL Flip 5 Bluetooth Speaker",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSPbj92F5ggak0iqts5jXOKsuLQepLoHcjMl99dnG_pQmXR8Hi0VXiULP8P5-isyHORDuMXyS0vSZGuNgfptGNEE3SGvZYbE60E_qfaeTcKjgRTl4JI0LFMfQ",
+    "company": "JBL",
+    "model": "Flip 5",
+    "price": 8999,
+    "category": "Speakers",
+    "description": "Portable Bluetooth speaker with deep bass and waterproof design."
+  },
+  {
+    "id": "93",
+    "product": "Bose SoundLink Revolve Bluetooth Speaker",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTt5rYzrecxZSyxL0prrDmKT4ILVqZObgRavWFIxm9tkSxJBjx9WGndY2Mskk44WaeyRc6GmP1BtTG7FAxisvuXJq_wSmlQnX9yOMnPRX7PBVqzlrCwYoMV",
+    "company": "Bose",
+    "model": "SoundLink Revolve",
+    "price": 23999,
+    "category": "Speakers",
+    "description": "360-degree sound with deep bass and water-resistant features."
+  },
+  {
+    "id": "94",
+    "product": "Sony SRS-XB12 Extra Bass Portable Bluetooth Speaker",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTGJ05xaRkzvSiDj-POlte0cD3pTCTbHF8IdVjbksEj02epYbuS-RYcLoGkQP570O2uWrNZP3WsTySLQGzp82lvTUJ0luFa0LYPhCXio7be0Ba3KdFRU9vaUw",
+    "company": "Sony",
+    "model": "SRS-XB12",
+    "price": 3299,
+    "category": "Speakers",
+    "description": "Compact speaker with extra bass and water-resistant design."
+  },
+  {
+    "id": "95",
+    "product": "Ultimate Ears Wonderboom 2 Bluetooth Speaker",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSOTOjJXry2M6eYOd8AQlafmUT5Iex2pwrjRP4qe1KTizR1BzV2ZIAG0_8SmOsx3KsJGIwsjgTL98RxMmitczxQdyBd26BGUBmxVgkfPCbngs4QOZy9VSAUXJo",
+    "company": "Ultimate Ears",
+    "model": "Wonderboom 2",
+    "price": 6999,
+    "category": "Speakers",
+    "description": "Portable, waterproof, and rugged with 360-degree sound."
+  },
+  {
+    "id": "96",
+    "product": "Marshall Kilburn II Portable Bluetooth Speaker",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRPQUhoo3RV1BfE-ra-ldxqam4zHIjwieEEykAqKlDszyuZsJtiWN0lrU-WUKd1pnoU9-exV8G6WZEudM7UrSkoDVxBLlxGYENhCSyVLtaujeZCSXGzRCXyvw",
+    "company": "Marshall",
+    "model": "Kilburn II",
+    "price": 21999,
+    "category": "Speakers",
+    "description": "Iconic design with powerful sound and up to 20 hours of playtime."
+  },
+  {
+    "id": "97",
+    "product": "Anker Soundcore Flare 2 Bluetooth Speaker",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS5nnlTbdfhNVqsd2TvIw1NvpPZlQDlmqsJQEq2jHJX-spAGyqbxjHf5MymJ1SfCZNpyLNJr9EA4Q5HO_BLefcd8WqUM0lr5VeaGPx9j2QNUDkbRVLf5i4O9Q",
+    "company": "Anker",
+    "model": "Soundcore Flare 2",
+    "price": 5999,
+    "category": "Speakers",
+    "description": "360-degree sound with RGB lighting and waterproof design."
+  },
+  {
+    "id": "98",
+    "product": "boAt Stone 1200 Bluetooth Speaker",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQgDEd-9Ut6nKoKkbB83RvDUkt4sNlg_K1qebos-rAI9hy5OvxjdZFeIGE4rM66vuWT9pzzvdBOiA_cXrydDty37cv2tNVy66P1pnX7b_oMO830JtcsTu5C",
+    "company": "boAt",
+    "model": "Stone 1200",
+    "price": 3999,
+    "category": "Speakers",
+    "description": "40W RMS signature sound, IPX7 water resistance and RGB lights."
+  },
+  {
+    "id": "99",
+    "product": "Mi Portable Bluetooth Speaker (16W)",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTgGtTHQl7Dk5liJ6nEN11SAyLOvmAR5-isizEmDi3Ofs9NvjEfSyzQ7vqJXwix5RAesvrR1vm-oYxHZvDdIU4fMSMwpKpetNftMvc_B9bpzVzkiKZI6gTubw",
+    "company": "Mi",
+    "model": "16W",
+    "price": 2499,
+    "category": "Speakers",
+    "description": "Dual EQ modes, waterproof design, and 13-hour battery life."
+  },
+  {
+    "id": "100",
+    "product": "Zebronics Zeb-Rocky Bluetooth Speaker",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSXM7Ivvx8m8bYVtdraJXSMtxcj5jH86an4iYxxJ8kdikDWTNWwMKj4zMOHmKMzBN1PMTivFr5NF4aWrtqDWkWaSEd81lIgTBiAbKyDkYHrBDXI0Wgl6svEUQ",
+    "company": "Zebronics",
+    "model": "Zeb-Rocky",
+    "price": 1699,
+    "category": "Speakers",
+    "description": "Portable speaker with deep bass and FM radio support."
+  },
+  {
+    "id": "101",
+    "product": "Philips BT40 Portable Bluetooth Speaker",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTsveqUFkm0B1BHzjNXoNgGIjYSG0BmO-U02ldtUQ2eoWKcz0S-62m3lKs33t4kzZjoTOHH6hjWd6um3po5SKivERrDsglczVYJlnUswtDuYyjiKPmUO5H1",
+    "company": "Philips",
+    "model": "BT40",
+    "price": 1299,
+    "category": "Speakers",
+    "description": "Ultra-compact design with anti-clipping function for loud sound."
+  },
+  {
+    "id": "102",
+    "product": "Infinity (JBL) Fuze 100 Bluetooth Speaker",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTUxtGv7L1t5FFRL-unUoaQNW05L8DylmO7ml6sYPzI_JYUML2YlS5mCaUVshkpSmAOSifLL0z1mTSxGw1nZHfU68LRs0j4IGNn98TUL3MZPqiOVXwo2uFAlQ",
+    "company": "Infinity",
+    "model": "Fuze 100",
+    "price": 1499,
+    "category": "Speakers",
+    "description": "Waterproof, dual EQ mode and up to 9 hours of playtime."
+  },
+  {
+    "id": "103",
+    "product": "Portronics SoundDrum POR-871 Bluetooth Speaker",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSth4Fl10QpHjAsYtCf6059Zu-Ca2yAnBM1oGYc0R8ZqOkUymuaRz9hc_XCQQhd7lRPdUnZYC0w8bMJpswzlnmgE_sKmzSFstvO26A-o6cAiF0QsJ_q8mxpmA",
+    "company": "Portronics",
+    "model": "SoundDrum POR-871",
+    "price": 1799,
+    "category": "Speakers",
+    "description": "Compact powerful 10W speaker with water resistance and FM radio."
+  }
+]
+  

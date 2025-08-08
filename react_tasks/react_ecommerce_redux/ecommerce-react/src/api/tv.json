@@ -1,0 +1,123 @@
+[
+  {
+    "id": "104",
+    "product": "Samsung 55 Inch QLED 4K Smart TV",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS4ESzY3Hw2OLkwanZX_74WCBa3EbVuK8fni1zL1sxAXQElB1UjwvABH30DnpgG_5dU_ZyRHLo6d2hYzC3hlqooNk_gZFgUdR9dT4Wnz7t3_eyLJlhemgu2Hg",
+    "company": "Samsung",
+    "model": "QA55Q60AAKLXL",
+    "price": 54990,
+    "category": "TV",
+    "description": "Experience vivid colors with Quantum Dot technology and Smart Hub features."
+  },
+  {
+    "id": "105",
+    "product": "LG 50 Inch UHD 4K Smart TV",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS4JqjlWpoCVd2YHfKyZ3IXuKT5gFKl-0_1lsfcx8Mk57tzBCwwGm_pG1pMZozVvS2t-uz31oA5owOgGrfKRjSZt856rsDa5prkdx3rLq4672v_pb2cznvM",
+    "company": "LG",
+    "model": "50UP7500PTZ",
+    "price": 39990,
+    "category": "TV",
+    "description": "Clear picture quality with AI Picture Pro and webOS for easy access to apps."
+  },
+  {
+    "id": "106",
+    "product": "Sony 65 Inch 4K Ultra HD Smart LED TV",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRAMVR4ErKHLKN03Ox0ZxmCTOa8SqjikDh9fGZNYfeuFY1Ng_28Im0HnbAl-uOiEeNkosHXbI_u_N-fpwiNmCyX_QQYXBVaYzGJMBy5Fvio-c3FoMXdqSsQ",
+    "company": "Sony",
+    "model": "KD-65X80J",
+    "price": 84990,
+    "category": "TV",
+    "description": "Enjoy superior picture and sound quality with Google TV and Dolby Vision."
+  },
+  {
+    "id": "107",
+    "product": "TCL 43 Inch 4K UHD Smart TV",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS08miXi3s_VJKC2HOpLySaCMszW3CNJkKK0zFFSjiwkqBs0qN7D476SNaOka3g4C1J7Zohjkozio0s8kbrlRNx8nLnuU5JGcd9FX_elTwJGA-C_ACd5terzQ",
+    "company": "TCL",
+    "model": "43P615",
+    "price": 23990,
+    "category": "TV",
+    "description": "Affordable 4K TV with Android TV and built-in Google Assistant."
+  },
+  {
+    "id": "108",
+    "product": "Mi 55 Inch 4K Ultra HD Smart LED TV",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRWDBZM-rHkHDXG7FnQLfVGrClmfPdfcsfWq8NOS-ERLGckLqnTLAr_0bn0fuRBzOe5dBCBBjsI72NfVInVyDCgpNaqqvafb1VvCbqaFtarTeMq_2emUfiHA60",
+    "company": "Mi",
+    "model": "L55M6-5XPRO",
+    "price": 44990,
+    "category": "TV",
+    "description": "Smart TV with Dolby Vision and a sleek design for a modern home."
+  },
+  {
+    "id": "109",
+    "product": "OnePlus 50 Inch 4K Smart LED TV",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQFUpO9zq9AnZDYwnp_PvlukXbpQhAHc12J9iEN9G9eSApxWtGZQI1_JTbq-dp--Im8N3JLdS5myOCpt89xU4H3o2zlMS-6RExgxcFDszRDcATHSHRTf106",
+    "company": "OnePlus",
+    "model": "50U1S",
+    "price": 33999,
+    "category": "TV",
+    "description": "Vibrant picture quality with Oxygen Play and Dolby Atmos sound for immersive viewing."
+  },
+  {
+    "id": "110",
+    "product": "Vu 55 Inch 4K Ultra HD Smart LED TV",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTKWgZYVWrfpXhytYv0SrdP8uHSUyMh4ki0s62PTMqA2xSGPUcLFt-Z2L-5Js-b-Uysf1T2AByRCRa-r82w4kTeqLkHikl-J1KDBG62ANCB",
+    "company": "Vu",
+    "model": "55PM",
+    "price": 37990,
+    "category": "TV",
+    "description": "Premium 4K TV with ultra-bright panel and Dolby Vision-Atmos technology."
+  },
+  {
+    "id": "111",
+    "product": "Panasonic 43 Inch 4K Android Smart TV",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRpt7tZ8Of0x3-N0uFSxY2cwK7KQ2y8DtXVr6LMy5IIPKdsgITRwB1IW1cWdh0Nfr0Hb9hI3ydGkESu-zwz9EIadZFOYciLAGbNTMI5EI7TY0tX_xAI9RszmA",
+    "company": "Panasonic",
+    "model": "TH-43LX700DX",
+    "price": 31990,
+    "category": "TV",
+    "description": "Android TV with Google Assistant and superior color reproduction."
+  },
+  {
+    "id": "112",
+    "product": "Hisense 55 Inch 4K UHD Smart TV",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRSLB5pl8qRvnJeQpu7wrjGKLmU-LJJP8mqd0aDunrUhBFOZJsbvrHOZxyNMOyOWt-Okpca_ZIrr7oMDkTenXHEabxob-8p-EWKj2TZKYOc",
+    "company": "Hisense",
+    "model": "55A73F",
+    "price": 35990,
+    "category": "TV",
+    "description": "Dolby Vision and Dolby Atmos certified TV for cinematic experience."
+  },
+  {
+    "id": "113",
+    "product": "Philips 50 Inch 4K UHD Smart LED TV",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRV0s4GaWsiFKjzafXHkBjA9m9rgtWOCVgL26ZNQM5BH4JvuNJ0mCZVByMVf9n1f6zCGc6DAWyDcMeXO2P4pv4E8HnXHTUjs43Kf_mHfmCbxKH6YnkIpeY_xA",
+    "company": "Philips",
+    "model": "50PUT7605",
+    "price": 40990,
+    "category": "TV",
+    "description": "Crisp visuals with SAPHI Smart OS and Pixel Precise Ultra HD engine."
+  },
+  {
+    "id": "114",
+    "product": "Realme 43 Inch Full HD Smart LED TV",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQR4m95vMrtjMpECFt3n2vzQ8-WX07wOwEbcM5QUtJS32P3PIS2J53MEtXo8hY2Lwm9VNdLQKwzj1RYtbBMB1h2MB6Lz7ZMuwNzCKrw1ng",
+    "company": "Realme",
+    "model": "TV 43",
+    "price": 24999,
+    "category": "TV",
+    "description": "Smart TV with bezel-less design and Chroma Boost picture engine."
+  },
+  {
+    "id": "115",
+    "product": "Motorola Revou 55 Inch 4K Ultra HD Smart LED TV",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQeQqs3g3ijbanCha0orV69kCKx90VBkWmQPp-O75cYYjrg5faOIOCBHzkUYPz_Vh2_cbjaK00S0RcsXUUa1vAl4nZcTwcwsWhBC7-tKu8",
+    "company": "Motorola",
+    "model": "55UHDADMRS3Q",
+    "price": 41990,
+    "category": "TV",
+    "description": "Immersive experience with Dolby Vision, Dolby Atmos, and Android 10."
+  }
+]
+  

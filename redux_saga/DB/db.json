@@ -1,0 +1,40 @@
+{
+    "product":[
+        {
+            "id":1,
+            "name":"Samsung m40",
+            "color":"black",
+            "price":30000,
+            "category":"Mobile",
+            "brand":"Samsung",
+            "image":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/samsung-galaxy-z-fold-6-5g-pink-256gb-12gb-ram-back-fold.png"
+        },
+        {
+            "id":2,
+            "name":"T-shirt",
+            "color":"black",
+            "price":1000,
+            "category":"cloths",
+            "brand":"oneplus",
+            "image":"https://cdn.pixabay.com/photo/2024/04/29/04/21/tshirt-8726716_1280.jpg"
+        },
+        {
+            "id":3,
+            "name":"Samsung s24",
+            "color":"black",
+            "price":100000,
+            "category":"Mobile",
+            "brand":"Samsung",
+            "image":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/samsung-galaxy-z-fold-6-5g-pink-256gb-12gb-ram-back-fold.png"
+        },
+        {
+            "id":4,
+            "name":"shirt",
+            "color":"white",
+            "price":12000,
+            "category":"cloths",
+            "brand":"sony",
+            "image":"https://cdn.pixabay.com/photo/2021/05/23/17/42/shirt-6276819_640.png"
+        }
+    ]
+}

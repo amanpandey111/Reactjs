@@ -1,0 +1,14 @@
+.outlet-div{
+    /* border: 2px solid green; */
+    width: 84%;
+    margin: auto;
+}
+.outlet-div-main{
+    /* background-color:#F1F2F4 !important; */
+    /* border: 2px solid red; */
+}
+.outlet-div-main1{
+    border: 2px solid #F1F2F4;
+    background-color: #F1F2F4;
+    /* height: 140vh; */
+}

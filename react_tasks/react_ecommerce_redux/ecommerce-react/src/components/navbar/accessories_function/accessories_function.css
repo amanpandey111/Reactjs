@@ -1,0 +1,169 @@
+/* //todo : Here we Will do styling for our detail section of our items */
+
+/* //! Let's write our most repeatable code here */
+.dynamic-mobile-main,.dynamic-computer-main,.dynamic-watch-main,.dynamic-men-main,.dynamic-women-main,.dynamic-women-main,.dynamic-kitchen-main,.dynamic-book-main,.dynamic-fridge-main,
+.dynamic-section-main,.dynamic-ac-main,.dynamic-tv-main
+{
+    /* border: 3px solid; */
+    display: flex;
+    height: 100vh;
+    padding-bottom: 10rem;
+    background-color: white;
+
+}
+.dynamic-mobile-section img{
+    /* border: 2px solid; */
+    width: 200px;
+    height: 280px;
+}
+.dynamic-mobile-section,.dynamic-computer-section,.dynamic-watch-section,.dynamic-menwear-section,.dynamic-women-section,.dynamic-furniture-section,.dynamic-kitchen-section,
+.dynamic-book-section,.dynamic-fridge-section,.dynamic-speaker-section,.dynamic-ac-section,.dynamic-tv-section
+{
+    /* border: 2px solid red; */
+    width: 100vh;
+    background-color: white;
+    display: flex;
+    padding: 1rem;
+    margin: auto;
+    padding: 2rem;
+}
+.dynamic-mobile-div1,.dynamic-computer-div1,.dynamic-watch-div1,.dynamic-menwear-div1,.dynamic-women-div1,.dynamic-furniture-div1,.dynamic-kitchen-div1,.dynamic-book-div1,
+.dynamic-fridge-div1,.dynamic-speaker-div1,.dynamic-ac-div1,.dynamic-tv-div1
+{
+    /* border: 2px solid blue; */
+    /* padding-right: 2rem; */
+    /* width:15rem; */
+    line-height: 2rem;
+    display: flex;
+    /* gap: 10rem; */
+    /* line-height-step: ; */
+}
+.dynamic-mobile-div1 form,.dynamic-computer-div1 form,.dynamic-watch-div1 form,.dynamic-menwear-div1 form,.dynamic-women-div1 form,.dynamic-furniture-div1 form,.dynamic-kitchen-div1 form,
+.dynamic-book-div1 form,.dynamic-fridge-div1 form,.dynamic-speaker-div1 form,.dynamic-ac-div1 form,.dynamic-tv-div1 form
+{
+    /* border: 2px solid; */
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    gap: 0.6rem;
+    flex-direction: column;
+}
+.dynamic-mobile-div2,.dynamic-computer-div2,.dynamic-watch-div2,.dynamic-menwear-div2,.dynamic-women-div2,.dynamic-furniture-div2,.dynamic-kitchen-div2,.dynamic-book-div2,
+.dynamic-fridge-div2,.dynamic-speaker-div2,.dynamic-ac-div2,.dynamic-tv-div2
+{
+    /* border: 2px solid green;     */
+    display: flex;
+    gap: 1rem;
+}
+.dynamic-mobile-section form div,.dynamic-computer-section form div,.dynamic-watch-section form div,.dynamic-menwear-section form div,.dynamic-women-section form div,
+.dynamic-furniture-section form div,.dynamic-kitchen-section form div,.dynamic-book-section form div,.dynamic-fridge-section form div,.dynamic-speaker-section form div,
+.dynamic-ac-section form div,.dynamic-tv-section form div
+{
+    /* border: 2px solid magenta; */
+    font-size: 14px;
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    height: 1.3rem;
+    /* line-height: 2rem; */
+    letter-spacing: 0.1rem;
+    /* font-size: 1.4rem; */
+}
+.after-aside .button-cart{
+    background-color: #FF9F02;
+    color: white;
+    padding: 0.5rem 0.8rem;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    border: none;
+}
+.mobile-aside .button-back,.computer-aside .button-back,.watch-aside button,.menwear-aside button,.women-aside button,.furniture-aside button,.kitchen-aside button,
+.book-aside button,.fridge-aside button,.speaker-aside button,.ac-aside button,.tv-aside button
+{
+    background-color: #FB641A;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.9rem;
+    gap: 0.3rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: none;
+}
+.dynamic-mobile-div2 .mobile-aside,.dynamic-computer-div2 .computer-aside,.dynamic-watch-div2 .watch-aside,.dynamic-women-div2 .women-aside,.dynamic-furniture-div2 .furniture-aside,
+.dynamic-kitchen-div2 .kitchen-aside,.dynamic-book-div2 .book-aside,.dynamic-fridge-div2 .fridge-aside,.dynamic-speaker-div2 .speaker-aside,.dynamic-ac-div2 .ac-aside,
+.dynamic-tv-div2 .tv-aside,.dynamic-menwear-div2 .menwear-aside
+{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:start;
+    gap: 0.5rem;
+}
+.dynamic-mobile-div2 .after-aside{
+    /* border: 2px solid chocolate; */
+}
+.after-aside p{
+    line-height: 1.5rem;
+    font-size: 14px;
+    color:#7e8fab;
+}
+.after-aside span{
+    font-size: large;
+    line-height: 2rem;
+    color: black;
+    font-weight: 640;
+}
+
+/* //! Here we will write code to set height and width of the product */
+.dynamic-computer-section img{
+    width: 250px;
+    height: 150px;
+}
+.dynamic-watch-section img{
+    width: 160px;
+    height: 200px;
+}
+.dynamic-menwear-section img{
+    width: 200px;
+    height: 150px;
+}
+.dynamic-women-section img{
+    height: 200px;
+    width: 120px;
+}
+.dynamic-furniture-section img{
+    height: 200px;
+    width: 300px;
+}
+.dynamic-kitchen-section img{
+    width: 200px;
+    height: 200px;
+}
+.dynamic-book-section img{
+    width: 160px;
+    height: 240px;
+}
+.dynamic-fridge-section img{
+    height: 240px;
+    width: 100px;
+}
+.dynamic-speaker-section img{
+    width: 120px;
+    height: 200px;
+}
+.dynamic-ac-section img{
+    width: 300px;
+    height: 100px;
+}
+.dynamic-tv-section img{
+    width: 250px;
+    height: 140px;
+}

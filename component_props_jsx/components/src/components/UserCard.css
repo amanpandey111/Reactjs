@@ -1,0 +1,16 @@
+#user_image{
+    height: 135px;
+    width: 70%;
+    border-radius: 50%;
+}
+.user_container{
+    border: 2px solid rgb(214, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(188, 226, 218);
+    color: black;
+    flex-wrap: wrap;
+    gap: 12px;
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "33",
+    "product": "Samsung 253L Double Door Refrigerator",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ8cHTdUv4PiROYKyCk6riyM4A2LVMy-HA_FGLuzmDNtwozNoKS9cKO1Wn-NYnxTXNZHlE8cxrskKwC0bssYMHonUxsDV5dGOk0DKFebCWPsbJ4fDB4HHIThg",
+    "company": "Hitachi",
+    "model": "RT28T3032S8/HL",
+    "price": 24990,
+    "category": "Fridge",
+    "description": "A spacious refrigerator with an energy-efficient compressor and a sleek design."
+  },
+  {
+    "id": "34",
+    "product": "LG 260L Double Door Refrigerator",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRxtuK3OITuv0W3cZPrqWcYJ2q4kOJCwH70fqgJp-BhQJalkP0dZuVhAXvJbiEJSYJ5GlbaKul6axjGSbJIVVsvTS008TGzqATP-4OQj7ipiLnHJZaliduM-Fk",
+    "company": "LG",
+    "model": "GL-I292RPZL",
+    "price": 26990,
+    "category": "Fridge",
+    "description": "A fridge with fresh storage and fast cooling technology for enhanced preservation."
+  },
+  {
+    "id": "35",
+    "product": "Whirlpool 330L Double Door Refrigerator",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSytTIMn2QPI_2CuAZns2XzE1jvAG-BVTkHJyyt5yki4G1qHGl0XKY6vTDa2i7W15zcvq23U9XW47qVU7AKNGJkPOwwo7Z0VnHMWX6bKlY2",
+    "company": "Whirlpool",
+    "model": "IF 335 ELT",
+    "price": 30990,
+    "category": "Fridge",
+    "description": "Energy-efficient refrigerator with 6th Sense quick chill technology."
+  },
+  {
+    "id": "36",
+    "product": "Godrej 190L Single Door Refrigerator",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSytTIMn2QPI_2CuAZns2XzE1jvAG-BVTkHJyyt5yki4G1qHGl0XKY6vTDa2i7W15zcvq23U9XW47qVU7AKNGJkPOwwo7Z0VnHMWX6bKlY2",
+    "company": "Godrej",
+    "model": "RD EDGE 190C 53 WGG",
+    "price": 12000,
+    "category": "Fridge",
+    "description": "A compact and energy-efficient fridge, ideal for small households."
+  },
+  {
+    "id": "37",
+    "product": "Haier 258L Double Door Refrigerator",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcScVPFPGtIaRQUy8QNRWNdX3Uq6YtRPG8HlAgJS30HHgl0a3vM6sboL-jzrMVBRKPo0R7IM1igQLmr893-GnqTTF3NCqnLLpN_w2JC4IWJrtWrfOaLRIG8RHw",
+    "company": "Haier",
+    "model": "HRF-2783BS-R",
+    "price": 17990,
+    "category": "Fridge",
+    "description": "A stylish refrigerator with energy-efficient features and ample space."
+  },
+  {
+    "id": "38",
+    "product": "Bosch 252L Double Door Refrigerator",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSER2a7qhpdUW32qeCCS_kXd787ZXzAF9Rp1_rqT-W55lsciYl6bQDvWx2-abm14JGw273RwAXdGeHd3uIlcqSG73mbLkcmBET4_Qnd3Wg-",
+    "company": "Bosch",
+    "model": "KDN56AL30I",
+    "price": 42990,
+    "category": "Fridge",
+    "description": "A high-end fridge with VitaFresh technology for superior freshness retention."
+  },
+  {
+    "id": "39",
+    "product": "Panasonic 307L Double Door Refrigerator",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRNxoXKkgTEARDz2IWgJtEUMiJhNbwBGbKN1PSlpsj3ZYp_93hKSDB4fNFRf7GYhkXvlW1yrb5B09Mh-63YosSX3y04ZeDNASlCtDZdzrJec1s5hnl15Zynvg",
+    "company": "Panasonic",
+    "model": "NR-BG311VDA3",
+    "price": 27490,
+    "category": "Fridge",
+    "description": "Energy-efficient with AG clean technology and toughened glass shelves."
+  },
+  {
+    "id": "40",
+    "product": "Hisense 263L Double Door Refrigerator",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQz9br7eqf4YiOFI6_2W0AvwL3UOojjw01e3CRN0RJgnZndQPZ7Cx6skPKrYR2HC2VMVx2KiRUeI3Hfb1ViMhXeDNiaBc1xIUlMfqCoQGy8dpKSLFXKcYXglao",
+    "company": "Hisense",
+    "model": "RT286N4HCBN",
+    "price": 20990,
+    "category": "Fridge",
+    "description": "Smart inverter compressor with frost-free and moisture control features."
+  },
+  {
+    "id": "41",
+    "product": "Samsung 198L Single Door Refrigerator",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSQj4jpIhcoNDa1BsHzbwnr0P_CzotMM2Ym7u4ZzVTJba-TL7NcZWICNko4OeqFdViuwoiXRu9YCddjFU6GvWC6koz6s0QfvELyTzgCy3B6aXTeJA8EqfQRrQ",
+    "company": "Samsung",
+    "model": "RR21T2H2WCU/HL",
+    "price": 15490,
+    "category": "Fridge",
+    "description": "Direct cool fridge with digital inverter technology and base drawer."
+  },
+  {
+    "id": "42",
+    "product": "Whirlpool 215L Single Door Refrigerator",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQEqJtrXbaQ7nvModg1mvtni_L-SK1NL_CGtAU4WFRAkoC-gt3Q_VVl6BuIM2w1Tdz49B-xSpYuD8AAG93iRV7vkQVbyPsFP8Sn8CddkfT7QCZl5GreXD5ClBk",
+    "company": "Electrolux",
+    "model": "215 IMPRO ROY 5S",
+    "price": 17490,
+    "category": "Fridge",
+    "description": "5-star energy rating, jumbo storage, and auto defrost function."
+  },
+  {
+    "id": "43",
+    "product": "Liebherr 265L Double Door Refrigerator",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSPkbjdhT-843XBwx8tbgkkfvj12B9HKR0k0Wx0T2IeIoOn1zIo2VAtbJQFARa63-SRCadpu6hsX1Oput7ta6b-mqFCLTt4IvvBLis-LM1j",
+    "company": "Liebherr",
+    "model": "CNel 281",
+    "price": 34990,
+    "category": "Fridge",
+    "description": "NoFrost technology and DuoCooling system for precise temperature control."
+  },
+  {
+    "id": "44",
+    "product": "Voltas Beko 185L Single Door Refrigerator",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTjaf-EJ0x6dzo3KVfg_V4lDZZPBnzmDp3HH1bDXYBHCnSygv9wB7wH9MirGT0eIxjgvm4pc6shIFYLY86wP-a3p0tZYaq_sGkOYf-CIEA",
+    "company": "Voltas Beko",
+    "model": "RDS205C",
+    "price": 13990,
+    "category": "Fridge",
+    "description": "Compact, direct cool refrigerator with active fresh blue light technology."
+  }  
+]

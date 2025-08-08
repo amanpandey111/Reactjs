@@ -1,0 +1,17 @@
+#main-container{
+    border: 2px solid red;
+}
+#main-container ul{
+    border: 2px solid green;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 40px;
+}
+#main-container ul li{
+    /* border: 3px solid yellow; */
+    width: 450px;
+}
