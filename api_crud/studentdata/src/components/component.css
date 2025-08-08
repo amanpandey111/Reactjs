@@ -1,0 +1,81 @@
+/* ! Let's Do styling for <StudentTable/> */
+.studenttable{
+    /* border: 2px solid red; */
+    width: 50%;
+    border-top: 3px solid #614974;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    padding: 0.8em;
+}
+.studenttable h2{
+    color: #614974;
+    font-size: 1.2rem;
+}
+.student-table{
+    /* border: 2px solid green; */
+    width: 100%;
+    margin-top: 0.8rem;
+    /* border-radius: 3rem; */
+}
+.student-table thead th,.student-table tbody td{
+    /* border: 3px solid red; */
+    padding: 0.5rem;
+}
+.student-table tbody tr td:last-child{
+    color: white;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 0.6rem;
+}
+@media (max-width:1110px){
+    .studenttable{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+}
+/* ! styling end's for <StudentTable/> */
+
+/* todo Let's Do styling for <CreateStudent/> */
+.addnewstudent{
+    /* border: 2px solid red; */
+    width: 50% !important;
+    border-top: 4px solid #614974;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding: 1.5rem !important;
+    box-shadow: 0px 0px 5px #614974;
+}
+.addnewstudent h2{
+    color: #614974;
+}
+.addnewstudent form input{
+    border: 1px solid rgb(231, 230, 230);
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    margin-top: 0.3rem;
+    /* border: none; */
+}
+.addnewstudent form label{
+    color: black;
+    font-weight: 600;
+    margin-top: 0.7rem;
+}
+.addnewstudent form p{
+    color: red;
+}
+/* todo styling end for <CreateStudent/> */
+
+/* todo Let's Do styling for <ViewDetails/> */
+.student-detail{
+    /* border: 2px solid red; */
+    width: 50% !important;
+    border-top: 4px solid #614974;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding: 1.5rem !important;
+    box-shadow: 0px 0px 5px #614974;
+}
+.student-detail .details p strong{
+    color: #614974 !important;
+}
