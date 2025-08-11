@@ -14,11 +14,11 @@ const Pokemon = () => {
     useEffect(()=>{
         getApiData()
     },[])
-    console.log(image);
+    // console.log(image);
   return (
     <section>
         <h1>'Mankey' inside</h1>
-        <img src={image} alt="Loading" />
+        <img src={image ? image : " " } alt="Loading" />
     </section>
   )
 }
