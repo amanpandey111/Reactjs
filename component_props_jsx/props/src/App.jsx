@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './components/Card'
 import Button from './components/Button'
+import Parent1 from './practice_11_8_25/Parent1'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,11 +25,19 @@ function App() {
     // </div>
 
     //! passing prop as a function
-    <div>
-      <Button incrementCount={handleClick} decrement={handleClick1} text="click me">
-        <h1>{count}</h1>
-      </Button>
-    </div>
+    // <div>
+    //   <Button incrementCount={handleClick} decrement={handleClick1} text="click me">
+    //     <h1>{count}</h1>
+    //   </Button>
+    // </div>
+
+    <>
+      {/* //! Familiar Prop  */}
+      {/* <Parent1/> */}
+
+      {/* //! Passing Prop to a Child Component */}
+      <Parent1/>
+    </>
   )
 }
 
