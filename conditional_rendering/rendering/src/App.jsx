@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import LoginBtn from './components/LoginBtn';
 import LogOut from './components/LogOut';
+import ConditionalPractice from './components/ConditionalPractice';
 
 function App() {
   const [isLoggedIn, setLoggedIn] = useState(true);
@@ -11,10 +12,12 @@ function App() {
   //! Using && operator
   return (
     <div>
-      <h1>Welcome to react community</h1>
+      {/* <h1>Welcome to react community</h1>
       <div>
         {isLoggedIn && <LogOut/>}
-      </div>
+      </div> */}
+
+      <ConditionalPractice/>
     </div>
   )
 
