@@ -26,7 +26,7 @@ const UseEffect = () => {
     //     alert("I willl every time when count or total is updated")
     // },[count,total])
 
-    //! Lets write cleanup code 
+    //! Lets write cleanup code
     useEffect(()=>{
         alert("count is updated")
         return ()=>{
@@ -38,7 +38,7 @@ const UseEffect = () => {
         setCount(count+1)
     }
     function handleTotal(){
-        setTotal(total+1)
+        setTotal((prev)=>prev+1)
     }
   return (
     <div>
