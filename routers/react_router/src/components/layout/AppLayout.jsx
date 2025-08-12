@@ -17,9 +17,6 @@ const AppLayout = ()=> {
     return(
         <>
           <Header/>
-          
-          
-          {/* <Home/> */}
           <div className="outlet-container">
              <Outlet/>
           </div>

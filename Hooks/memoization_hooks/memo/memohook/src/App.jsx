@@ -14,9 +14,10 @@ import ReactMemoPractice4 from './components/react_memo_24/ReactMemoPractice4'
 import ReactMemoPractice5 from './components/react_memo_24/ReactMemoPractice5'
 import UseMemoPractice1 from './components/usememothapa/UseMemoPractice1'
 import UseCallbackPractice1 from './components/usecallback_thapa/UseCallbackPractice1'
-import ReactMemo1 from './react_memo_practice/ReactMemo1'
+// import ReactMemo1 from './react_memo_practice/ReactMemo1'
 import MemoObjectPractice from './ex1/MemoObjectPractice'
 import MemoObjectPractice1 from './ex1/MemoObjectPractice1'
+import ReactMemoPractice6 from './components/react_memo_24/ReactMemoPractice6'
 
 
 function App() {
@@ -28,11 +29,12 @@ function App() {
 
        {/* <MemoOne/> */}
 
+       {/* <UseCallback/> */}
+
+       {/* //! Let's Have a task on useMemo() hook */}
        {/* <UseMemoTask1/> */}
        {/* <UseMemoTask2/> */}
        {/* <UseMemoTask3/> */}
-
-       {/* <UseCallback/> */}
 
        {/* //! Let's Practice the react.memo(24) */}
        {/* <ReactMemoPractice/> */}
@@ -43,7 +45,7 @@ function App() {
        {/* <ReactMemoPractice5/> */}
 
        {/* //! Let's Practice the useMemo() hook-24 */}
-       {/* <UseMemoPractice1/> */}
+       <UseMemoPractice1/>
 
        {/* //! Let's Practice useCallback() hook-24 */}
        {/* <UseCallbackPractice1/> */}
@@ -53,7 +55,11 @@ function App() {
 
        {/* //todo here we will practice with non-primitive data type(object,array,function) */}
        {/* <MemoObjectPractice/> */}
-       <MemoObjectPractice1/>
+       {/* <MemoObjectPractice1/> */}
+
+
+       {/* //! Let's Practice the React.memo on 12-08-2025 */}
+       {/* <ReactMemoPractice6/> */}
     </>
   )
 }

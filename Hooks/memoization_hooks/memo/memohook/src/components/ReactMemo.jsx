@@ -5,7 +5,7 @@ const ReactMemo = ()=> {
     const[count,setCount] = useState(0)
     // const obj = {
     //     name:"aman pandey",
-    //     college:"JBIET"
+    //     college:"JBREC"
     // }
 
     const obj = useMemo(()=>{

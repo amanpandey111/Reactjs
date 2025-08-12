@@ -1,7 +1,21 @@
 import React, { memo } from "react"
 import { useRef } from "react"
 
-const MemoCount = ({obj})=> {
+// const MemoCount = ({obj})=> {
+//     const refCount = useRef(0)
+//     console.log(refCount.current++);
+//     return(
+//         <div>
+//             <h1>I am Memo count I got Incremented By {refCount.current++}</h1>
+//             <h2>{obj.name}</h2>
+//         </div>
+        
+//     )
+// }
+// export default memo(MemoCount)
+
+
+const MemoCount = React.memo(({obj})=> {
     const refCount = useRef(0)
     console.log(refCount.current++);
     return(
@@ -9,7 +23,6 @@ const MemoCount = ({obj})=> {
             <h1>I am Memo count I got Incremented By {refCount.current++}</h1>
             <h2>{obj.name}</h2>
         </div>
-        
     )
-}
-export default memo(MemoCount)
+})
+export default MemoCount

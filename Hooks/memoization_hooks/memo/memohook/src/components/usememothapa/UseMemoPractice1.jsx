@@ -23,6 +23,7 @@ const UseMemoChild = ()=> {
         console.log("expensive task end");
         return total
     }
+    // let sum = useMemo(()=>expensiveTask(),[])
     let sum = useMemo(()=>expensiveTask(),[])
     return(
         <>
