@@ -17,9 +17,8 @@ function App() {
       {/* <StopWatch/> */}
 
       {/* <UseRefThapa/> */}
-
-      <ForwardRef/>
-      {/* <Practice/> */}
+      {/* <ForwardRef/> */}
+      <Practice/>
     </div>
   )
 }

@@ -7,6 +7,7 @@ const Input = () => {
     <>
         <input ref={inputRef} type="text" />
         <button onClick={()=>inputRef.current.focus()}>Focus</button>
+        {/* <button>Focus</button> */}
     </>
   )
 }

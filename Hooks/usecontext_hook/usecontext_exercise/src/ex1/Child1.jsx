@@ -7,6 +7,7 @@ const Child1 = () => {
   return (
     <>
        <h1 style={{color:`${val}`}}>{val}</h1>
+       <h1 style={{color:val}}>{val}</h1>
        <button onClick={()=>handleState()}>change color</button>
     </>
   )

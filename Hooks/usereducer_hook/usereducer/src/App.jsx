@@ -8,6 +8,7 @@ import Index from './components/practice(16)/Index'
 import BestPractices from './components/practice(16)/BestPractices'
 import BestPractices1 from './components/practice(16)/BestPractices1'
 import UseReducerPractice from './components/practice(23)/UseReducerPractice'
+import MultipleReducer from './usedispatch_hacks/MultipleReducer'
 
 function App() {
   
@@ -22,7 +23,10 @@ function App() {
 
     {/* <BestPractices1/> */}
 
-    <UseReducerPractice/>
+    {/* <UseReducerPractice/> */}
+
+    {/* //! Let's utilise the useReducer for various purposes */}
+    <MultipleReducer/>
    </div>
   )
 }

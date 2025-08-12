@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react'
 const UseRef = () => {
   let [count,setcount] = useState(0)
   let val = useRef(0);
+  
   function handleIncrement(){
     val.current += 1
     console.log("the value of val is ",val.current);

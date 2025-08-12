@@ -49,9 +49,9 @@ function App() {
     <div>
        {/* <FirstComponent/> */}
 
-       {/* <AppMain/> */}
+       <AppMain/>
 
-       <PracticeMain/>
+       {/* <PracticeMain/> */}
     </div>
   )
 }

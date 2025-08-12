@@ -10,8 +10,8 @@ function App() {
     <>
       {/* <Input/> */}
       {/* <Video/> */}
-      {/* <GuessNumber/> */}
-      <Form/>
+      <GuessNumber/>
+      {/* <Form/> */}
     </>
   )
 }
