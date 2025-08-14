@@ -8,4 +8,4 @@ const api = axios.create({
 //todo : we need to create a get request
 export const currencyConverter = (fromCurrency, toCurrency, amount) => {
     return api.get(`/pair/${fromCurrency}/${toCurrency}/${amount}`);
-  };
+}

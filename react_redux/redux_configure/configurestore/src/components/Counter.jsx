@@ -5,6 +5,7 @@ const Counter = () => {
     const count = useSelector((state)=>state.taskReducer.count)
     // const count = useSelector((state)=>state[0].count)
     const inputText = useSelector((state)=>state.taskReducerInput.inputText)
+    console.log(count);
 
     const dispatch = useDispatch()
   return (
