@@ -5,8 +5,8 @@ import MyService from './user_interface/MyService'
 function App() {
   return (
     <>
-      {/* <MyService/> */}
-      <MyCounter/>
+      <MyService/>
+      {/* <MyCounter/> */}
     </>
   )
 }
