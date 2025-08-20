@@ -28,26 +28,26 @@ const IntegratingUi = () => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <Controller
+      <Controller 
         control={control}
         name="firstName"
-        render={({ field }) => <Input {...field} />}
+        render={({ field }) => <Input placeholder="Enter First Name" {...field} />}
       />
       <Controller
         control={control}
         name="lastName"
-        render={({ field }) => <Input {...field} />}
+        render={({ field }) => <Input placeholder="Enter Last Name" {...field} />}
       />
       <Controller
         control={control}
         name="email"
-        render={({ field }) => <Input {...field} />}
+        render={({ field }) => <Input placeholder="Enter Email Address" {...field} />}
       />
       <Controller
         control={control}
         name="iceCreamType"
         render={({ field }) => (
-          <Select
+          <Select placeholder="Select an Ice Cream Type"
             {...field}
             options={[
               { value: "chocolate", label: "Chocolate" },
@@ -63,7 +63,6 @@ const IntegratingUi = () => {
 }
 
 export default IntegratingUi
-
 
 
 // ...existing code...

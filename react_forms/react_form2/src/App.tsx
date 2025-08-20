@@ -21,7 +21,7 @@ function App() {
   }
   return (
     <div style={{border:"2px solid green",textAlign:"center"}}>
-      <h1>React Hook Form By Aman Pandey</h1>
+      <h1>React Hook Form</h1>
       {/* <MyForm1/> */}
       {/* <UserinfoValidate/> */}
       {/* <UserinfoDefault userdata={_userData} /> */}

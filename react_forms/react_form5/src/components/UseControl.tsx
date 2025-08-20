@@ -4,6 +4,11 @@ import type { SubmitHandler } from "react-hook-form";
 interface example{
     exampleField:string
 }
+  // const { field, fieldState } = useController({
+  //   name: "exampleField", // Field name
+  //   control,              // The control object passed from useForm
+  //   rules: { required: "This field is required" } // Validation rules
+  // });
 
 function UseControl() {
   const { control, handleSubmit } = useForm<example>();

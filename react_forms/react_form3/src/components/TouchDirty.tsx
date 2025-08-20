@@ -77,7 +77,7 @@ const TouchDirty = () => {
   return (
     <>
         <div className='userFrom'>
-            <h2 style={{textAlign:"center"}} >User Info Details(Get Values)</h2>
+            <h2 style={{textAlign:"center"}} >User Info Details(Touch Dirty)</h2>
             <h3 style={{textAlign:"center",lineHeight:"2rem"}}>component renders : {componentRender}</h3>
             {/* <h3>My Components Rerender - {componentRerender}</h3> */}
             <form action="#" className='userDetailForm' onSubmit={handleSubmit(formSubmit)} >

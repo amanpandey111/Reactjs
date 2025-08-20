@@ -15,9 +15,9 @@ function App() {
       {/* <WatchField/> */}
       {/* <GetValues/> */}
       {/* <SetValues/> */}
-      {/* <TouchDirty/> */}
+      <TouchDirty/>
       {/* <DisableField/> */}
-      <DisableSubmission/>
+      {/* <DisableSubmission/> */}
     </>
   )
 }

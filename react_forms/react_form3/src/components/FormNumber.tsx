@@ -48,7 +48,7 @@ const FormNumber = () => {
     }
   return (
     <>
-        <div className='userFrom' style={{border:"2px solid red"}} >
+        <div className='userFrom' style={{border:"2px solid #cacacaff"}} >
             <h2 style={{textAlign:"center",padding:"0px 0px 20px 0px"}} >User Info Details</h2>
             {/* <h3>My Components Rerender - {componentRerender}</h3> */}
             <form action="#" className='userDetailForm' onSubmit={handleSubmit(formSubmit)} >
@@ -121,11 +121,11 @@ const FormNumber = () => {
                         },
                         min:{
                             value:20,
-                            message:"Your Age Must be Greater than 20"
+                            message:"Your Age Must be More Than 19"
                         },
                         max:{
                             value:70,
-                            message:"Your Age Must be Less than 70"
+                            message:"Your Age Must be Less than 71"
                         }
                     })} placeholder='Enter your age' />
                     <p className='error' >{errors.age?.message}</p>

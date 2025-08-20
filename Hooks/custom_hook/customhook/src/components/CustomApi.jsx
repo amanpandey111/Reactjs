@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 const CustomApi = ()=> {
     // const[product,setProduct] = useState([])
     const product = useCustomapi()
-
+    console.log(product);
     // const fetchApi =async()=>{
     //     const res = await fetch('https://fakestoreapi.com/products')
     //     const data = await res.json()

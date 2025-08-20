@@ -14,8 +14,6 @@ import FormComponent from './components4/FormComponent'
 import UseForm from './use_form_state/UseForm'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       {/* <UseControl /> */}
@@ -23,7 +21,7 @@ function App() {
       {/* <NestedObject /> */}
       {/* <ArrayField/> */}
 
-      {/* <Controller1 /> */}
+      <Controller1 />
       {/* <Controller2 /> */}
 
       {/* <MyFormContext /> */}
@@ -31,7 +29,7 @@ function App() {
 
       {/* <FormComponent /> */}
 
-      <UseForm/>
+      {/* <UseForm/> */}
     </>
   )
 }

@@ -12,8 +12,8 @@ function App() {
   return (
     <>
       {/* <CustomApi/> */}
-      {/* <CustomCounter/> */}
-      <PracticeCounter/>
+      <CustomCounter/>
+      {/* <PracticeCounter/> */}
     </>
   )
 }

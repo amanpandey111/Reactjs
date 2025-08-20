@@ -45,10 +45,13 @@ const UseControl1 = () => {
             minLength:{
                 value:8,
                 message:"Password must be at least 8 characters long"
+            },
+            pattern:{
+                value:/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/,
+                message:"Password is not in proper format"
             }
-        }
+        },
     })
-
 
     const onSubmit : SubmitHandler<userdetail> = (data) => console.log(data);
   return (

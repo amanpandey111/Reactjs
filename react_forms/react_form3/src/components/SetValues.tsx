@@ -67,9 +67,9 @@ const SetValues = () => {
         console.log(formvalue);
     }
     const handleSetValues = () => {
-        console.log("Let's Set Values");
         setValue("name","vaibhav pandey",{shouldValidate:false,shouldDirty:true,shouldTouch:true})
-        setValue("email","")
+        console.log("Let's Set Values");
+        setValue("email","vaibhav@gmail.com",{shouldValidate:false,shouldDirty:true,shouldTouch:true})
     }
   return (
     <>

@@ -15,8 +15,8 @@ const UseForm = () => {
     control
   });
 
-  console.log(isDirty);
-  console.log(isSubmitting );
+  // console.log(isDirty);
+  console.log("isSubmitting", isSubmitting, "isValid",isValid );
 
   const onSubmit : SubmitHandler<formdata> = (data) => {
     console.log(data);
@@ -37,7 +37,7 @@ const UseForm = () => {
         <div className='fromGroup' >
           <label>Email:</label>
           <input
-            type="email"
+            // type="email"
             {...register('email', { required: 'Email is required' })}
           />
           {errors.email && <p>{errors.email.message}</p>}
