@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react"
-import axios from "axios"
+import { useState } from "react"
 import { useAddDataMutation, useDeleteDataMutation, useGetAllSectionsQuery, useUpdateDataMutation } from "../store2/apiSlice"
 
 const MyService = () => {

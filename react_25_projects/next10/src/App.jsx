@@ -1,10 +1,10 @@
-import Index from './components/accordian/Index'
 import './App.css'
+import GenerateColor from './color-generator/GenerateColor'
 
 function App() {
   return (
     <>
-      <Index/>
+       <GenerateColor/>
     </>
   )
 }

@@ -13,7 +13,7 @@ const SignUp = () => {
         "lastname":"",
         "email":"",
         "password":"",
-        "cpassword":""
+        // "cpassword":""
     })
     const[error,setError] = useState({})
     const [users, setUser] = useState([]);
@@ -147,7 +147,7 @@ const SignUp = () => {
     },[users])
 
     // localStorage.removeItem("userdata")  
-  return (
+     return (
     <section className="sf">
         <section className="signup-form-section" onClick={(e)=>e.stopPropagation()}>
             <div className="ss-div1">
@@ -215,6 +215,7 @@ const SignUp = () => {
         </section>
     </section>
   )
+    
 }
 
 export default SignUp
