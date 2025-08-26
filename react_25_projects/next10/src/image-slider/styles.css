@@ -1,0 +1,70 @@
+/* //! my styling */
+.image-slider-container {
+    position: relative;
+    /* Add desired dimensions and overflow to the container */
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* This will prevent images from spilling out */
+}
+
+.image-slider-container .show-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+    transition: opacity 0.5s ease-in-out;
+}
+
+.image-slider-container .hide-image {
+    display: none;
+}
+
+.image-slider-container .icon-left,
+.image-slider-container .icon-right {
+    position: absolute; /* Position them absolutely within the container */
+    top: 50%;
+    transform: translateY(-50%); /* Centers the icon vertically */
+    color: white; /* Make icons visible on top of the image */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for visibility */
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    z-index: 10; /*Ensures the icons are on top of the image*/
+}
+
+.image-slider-container .icon-left {
+    left: 20px;
+}
+
+.image-slider-container .icon-right {
+    right: 20px;
+}
+
+.common-button{
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(95, 8, 8);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.style-button{
+    background-color: rgb(88, 39, 39);
+}
+
+/* .button-div{
+    position: absolute;
+    top: 38%;
+    left: 16%;
+    transform: translate(0%,-30%);
+} */
+
+.button-div{
+    position: absolute;
+    /* border: 2px solid green; */
+    top: 350px;
+    left: 220px;
+}

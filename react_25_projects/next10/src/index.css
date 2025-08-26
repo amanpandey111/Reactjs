@@ -1,4 +1,11 @@
 @import "tailwindcss";
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-left: 8px !important;
+}

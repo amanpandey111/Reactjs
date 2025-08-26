@@ -1,0 +1,9 @@
+/* Popup.css */
+
+.image-div{
+    border: 2px solid rgb(17, 17, 15);
+    transition: transform 0.5s;
+}
+.image-div:hover{
+    transform: translate(30px, 30px);
+}

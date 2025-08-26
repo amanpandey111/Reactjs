@@ -1,0 +1,34 @@
+{
+  "options":[
+    {
+      "question":"What is the primary function of useState in React?",
+      "options":["To perform side effects in functional components.","To create a reference to a DOM element.","To add state to a functional component.",
+      "To fetch data from an API."],
+      "correct":"To add state to a functional component."
+    },
+    {
+      "question":"Which of the following is the correct way to pass a prop to a component in React?",
+      "options":["<Component myprop='value' />","<Component prop={myprop} />","<Component 'myprop'='value'/>",
+      "<Component prop: 'value' />"],
+      "correct":"<Component myprop='value' />"
+    },
+    {
+      "question":"What is the purpose of the useEffect hook in a functional component?",
+      "options":["To create a new component","To handle form submissions","To manage state updates",
+      "To perform side effects, such as data fetching or subscriptions"],
+      "correct":"To perform side effects, such as data fetching or subscriptions"
+    },
+    {
+      "question":"In React, what does the term 'virtual DOM' refer to?",
+      "options":["A new JavaScript library.","A copy of the real DOM kept in memory.","A type of database.",
+      "A server-side rendering method."],
+      "correct":"A copy of the real DOM kept in memory."
+    },
+    {
+      "question":"Which method is used to prevent the default behavior of an event in React?",
+      "options":["event.stop()","event.preventDefault()","event.stopEvent()",
+      "event.stopPropagation()"],
+      "correct":"event.preventDefault()"
+    }
+  ]
+}
