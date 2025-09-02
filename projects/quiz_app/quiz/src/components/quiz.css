@@ -1,0 +1,8 @@
+.correct,.correct1{
+    /* border: 2px solid green; */
+    background-color: rgb(98, 160, 98);
+}
+.wrong{
+    /* border: 2px solid red; */
+    background-color: rgb(170, 96, 96);
+}

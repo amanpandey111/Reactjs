@@ -1,23 +1,48 @@
+import './quiz.css'
+import { useDispatch } from "react-redux";
+import { indexchange, scorechange, selectchange } from "../store/quizSlice";
 
-const SingleQuiz = ({ curObj, index, curindex, setcurindex, entiredata }: any) => {
-    // const [curindex, setcurindex] = useState(0)
-    console.log(entiredata.length);
-    // console.log(curindex);
-    // console.log(curObj, index);
+const SingleQuiz = ({ curObj, index, curindex, selectedOpt }: any) => {
+     const dispatch = useDispatch()
+    function handleScore(opt:any){
+        if(opt==curObj.correct){
+            dispatch(scorechange(1))
+        }
+    }
     return (
         <div>
             {
                 curindex === index && (
-                    <div>
+                    <div className="" >
                         <p className="text-[25px]" >{curObj.question}</p>
                         {curObj.options.map((opt:any, optIndex:any) => (
                             <p key={optIndex}
-                            className="border-1 p-2 mt-2"
+                            className={`${selectedOpt.length>1 && selectedOpt==opt && (selectedOpt==curObj.correct ? 'correct' : 'wrong') } 
+                            ${selectedOpt.length>1 && (opt==curObj.correct ? 'correct1' : "") }
+                            border-1 p-2 mt-2`
+                            }
+                            onClick={()=>{
+                                handleScore(opt)
+                                if(selectedOpt){
+                                    return null
+                                }
+                                dispatch(selectchange(opt))
+                                // setSelectedOpt(opt)
+                            }}
                             >
                                 {opt}
                             </p>
                         ))}
-                        <button className="border-2 p-1 cursor-pointer m-auto" onClick={()=>setcurindex((prev:number)=>prev+1)} >next</button>
+                        <div className="mt-2 flex justify-center" >
+                            <button disabled={selectedOpt ? false : true} 
+                            className="nextbutton border-1 p-0.5 cursor-pointer rounded w-[4rem] bg-[#a2c5e8] text-[black] border-none"
+                            onClick={()=>{
+                                // setcurindex((prev:number)=>prev+1)
+                                dispatch(indexchange(1))
+                                // setSelectedOpt("")
+                                dispatch(selectchange(""))
+                            }} >next</button>
+                        </div>
                     </div>
                 )
             }
