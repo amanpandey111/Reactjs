@@ -3,14 +3,14 @@ import { getLocalStorage, setLocalStorage } from "../utils/localStorage";
 
 // localStorage.clear()
 // setLocalStorage()
-console.log("authSlice executed");
+// console.log("authSlice executed");
 
 let checkdata = getLocalStorage()
-console.log(checkdata);
+// console.log(checkdata);
 if(checkdata.employees !== null && checkdata.employees !== undefined  && checkdata.admin !== null && checkdata.admin !== undefined ){
-    console.log("data is present");
+    // console.log("data is present");
 }else{
-    console.log("data is absent");
+    // console.log("data is absent");
     setLocalStorage()
 }
 

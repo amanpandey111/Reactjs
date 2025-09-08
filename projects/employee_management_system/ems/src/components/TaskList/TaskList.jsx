@@ -6,7 +6,7 @@ import FailedTask from './FailedTask'
 
 const TaskList = (props) => {
     const{data}=props
-    console.log(data);
+    // console.log(data);
     
   return (
     <div id='tasklist' className='h-[45%] w-full mt-10 py-5 flex items-center justify-start gap-5 overflow-x-auto px-5' >

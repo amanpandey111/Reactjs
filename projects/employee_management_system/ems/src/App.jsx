@@ -12,6 +12,7 @@ const App = () => {
   console.log(user);
 
   useEffect(()=>{
+    console.log("I got executed");
     const loggedInUser = localStorage.getItem("loggedInUser")
     if(loggedInUser){
       const userData = JSON.parse(loggedInUser)
@@ -43,8 +44,6 @@ const App = () => {
       { !user ? <Login handleLogin={handleLogin} /> : '' }
       { (user!==null && user!==undefined) && (user=='admin' ? <AdminDashboard changeUser={setUser} /> : <EmployeeDashboard data={loggedInUserData} changeUser={setUser} />) }
 
-
-
       {/* <Login/> */}
       {/* <EmployeeDashboard/> */}
       {/* <AdminDashboard/> */}
@@ -53,7 +52,3 @@ const App = () => {
 }
 
 export default App
-
-/*
-header(4), tasklistnumber(4), tasklist(9), app(33)
-*/

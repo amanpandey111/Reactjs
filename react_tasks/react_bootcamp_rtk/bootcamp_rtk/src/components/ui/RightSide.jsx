@@ -84,6 +84,9 @@ const RightSide = () => {
         localStorage.setItem("userdata",JSON.stringify(userdata))
     }
     // localStorage.removeItem("wishlist")
+    if(Math.random()>0.5){
+        return new Error("Test Error Boundary")
+    }
   return (
     <>
        {courses.length >=1 ? 

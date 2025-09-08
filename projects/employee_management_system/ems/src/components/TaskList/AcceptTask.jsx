@@ -1,8 +1,7 @@
-import React from 'react'
 
 const AcceptTask = (props) => {
   const{data} = props
-  console.log(data.taskTitle);
+  // console.log(data.taskTitle);
   return (
     <div className='flex-shrink-0 h-full w-[300px] bg-red-400 rounded-xl p-5' >
       <div className='flex justify-between items-center' >
