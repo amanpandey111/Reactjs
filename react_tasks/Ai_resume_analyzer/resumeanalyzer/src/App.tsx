@@ -1,11 +1,11 @@
 import './App.css'
+import Navbar from './components/ui/Navbar'
+import MainRouter from "./components/router/MainRouter"
 
 function App() {
 
   return (
-    <div className='border-2' >
-      <h1>Let's Build Resume Analyzer Project in React</h1>
-    </div>
+    <MainRouter/>
   )
 }
 
