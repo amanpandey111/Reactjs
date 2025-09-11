@@ -8,7 +8,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(false)
   const messagesEndRed = useRef(null)
 
-  //! intially setting up a message regarding ai status
+  //! intially setting up a message regarding ai status(checking if ai is ready or not)
   useEffect(() => {
     const checkReady = setInterval(() => {
       if (
@@ -61,14 +61,19 @@ function App() {
     }
   }
 
-  console.log({aiReady,isLoading,inputValue:!inputValue.trim()});
+  function editableMessage(text) {
+    console.log(text);
+    setInputValue(text)
+  }
+
+  console.log({ aiReady, isLoading, inputValue: !inputValue.trim() });
 
   return (
     <>
-      <div className='border-6 min-h-screen bg-gradient-to-br from-sky-900 via-slate-950 to-emerald-900 flex flex-col items-center justify-center gap-8 p-4'>
+      <div className='min-h-screen bg-gradient-to-br from-sky-900 via-slate-950 to-emerald-900 flex flex-col items-center justify-center gap-8 p-4'>
         <h1 className=' text-6xl sm:text-7xl font-light bg-gradient-to-r from-emerald-400 via-sky-300 to-blue-500 bg-clip-text text-transparent text-center h-20'>AI Chat APP</h1>
 
-        <div className={`border-3 border-red-600 px-4 py-2 rounded-full text-sm
+        <div className={`border-3 px-4 py-2 rounded-full text-sm
           ${aiReady ? "bg-green-500/20 text-green-300 border border-green-500/30" : "bg-yellow-500/20 text-yellow-300 border border-yellow-500/30"}
         `} >
           {aiReady ? "🟢 AI is Ready" : "🔴 Waiting for AI"}
@@ -76,7 +81,7 @@ function App() {
 
         <div className=' border-3 w-full max-w-2xl bg-gradient-to-r from-gray-800/90 to-gray-700/90
         backdrop-blur-md border-gray-600 rounded-3xl p-6 shadow-2xl ' >
-          <div className="border-5 border-yellow-600 h-80 overflow-y-auto border-b border-gray-600 mb-6 p-4 bg-gradient-to-b
+          <div className="h-80 overflow-y-auto border-b border-gray-600 mb-6 p-4 bg-gradient-to-b
           from-gray-900/50 to-gray-800/50 rounded-2xl
           ">
 
@@ -92,9 +97,14 @@ function App() {
             {/* //! here we will be displaying the communication chats among "user" and "AI" */}
             {
               messages.map((msg) => (
-                <div key={msg.id} className={` p-3 m-2 rounded-2xl max-w-xs text-wrap
+                <div key={msg.id} className={`border-2 p-3 m-2 rounded-2xl max-w-xs text-wrap
               ${msg.isUser ? "bg-gradient-to-r from-blue-600 to-emerald-400 text-white ml-auto text-right" : " bg-gradient-to-r from-emerald-600 to-indigo-600 text-white "} `} >
-                  <div>{msg.content}</div>
+                  <div>
+                    {msg.isUser ? <div className='flex justify-end' ><p className='cursor-pointer p-0.5 bg-gray-800/80 w-fit rounded' onClick={() => editableMessage(msg.content)} >✏️
+                      
+                    </p></div> : ""}
+                    <p className='text-left' >{msg.content}</p>
+                  </div>
                 </div>
               ))
             }
