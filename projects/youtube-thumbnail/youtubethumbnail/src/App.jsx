@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css'
 import 'remixicon/fonts/remixicon.css'
 import 'animate.css';
@@ -70,6 +71,13 @@ function App() {
         </form>
       </div>
 
+
+
+  
+
+
+
+
       <div className='mt-12 grid grid-cols-3 gap-12 w-10/12 mx-auto' >
         <div className='bg-white rounded-lg p-16' >
 
@@ -111,4 +119,12 @@ function App() {
   )
 }
 
-export default App
+export default App;
+
+
+
+
+
+
+
+

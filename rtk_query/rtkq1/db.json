@@ -1,10 +1,6 @@
 {
   "sources": [
     {
-      "id": "1",
-      "title": "uithyr"
-    },
-    {
       "id": "4",
       "title": "typescript"
     },
@@ -15,6 +11,10 @@
     {
       "id": "2",
       "title": "ufggsdt"
+    },
+    {
+      "id": "1",
+      "title": "python"
     }
   ]
 }

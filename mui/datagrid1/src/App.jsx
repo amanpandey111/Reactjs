@@ -52,7 +52,7 @@ function App() {
   return (
     <>
       {/* //! 25-06-25 */}
-      {/* <BasicColumnsGrid/> */}
+      <BasicColumnsGrid/>
       {/* <ValueGetterGrid/> */}
       {/* <ValueFormatterGrid/> */}
       {/* <RenderCellGrid/> */}
@@ -122,7 +122,7 @@ function App() {
       {/* <VirtualizedList/> */}
       {/* <ColumnVirtualizationGrid/> */}
 
-      <PaginationCommunityNoSnap/>
+      {/* <PaginationCommunityNoSnap/> */}
     </>
   )
 }
