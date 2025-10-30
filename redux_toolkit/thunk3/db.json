@@ -1,0 +1,19 @@
+{
+  "employees":[
+    {
+      "id":1,
+      "name":"Aman Pande",
+      "role":"frontend Developer"
+    },
+    {
+      "id":2,
+      "name":"Amar Ramamoorthy",
+      "role":"ColdFusion Developer"
+    },
+    {
+      "id":3,
+      "name":"Rohith Kotla",
+      "role":"QA Specialist"
+    }
+  ]
+}

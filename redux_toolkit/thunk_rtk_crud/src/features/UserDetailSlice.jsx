@@ -120,8 +120,8 @@ const userDetail = createSlice({
             state.loading=false
             console.log(action.payload);
             const {id} = action.payload
-            state.users=state.users.filter((ele)=>ele.id!==id)
-            // state.users = action.payload                 
+            state.users=state.users.filter((ele)=>ele.id!==id)  
+            // state.users = action.payload                     
         })
         .addCase(deleteUser.rejected,(state,action)=>{   //? Delete User
             state.loading=false
