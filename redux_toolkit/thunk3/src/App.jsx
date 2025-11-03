@@ -1,8 +1,9 @@
 import './App.css'
 import Counter from './rtk1/Counter'
-import EmployeeDetail from './rtk1/EmployeeDetail'
+import EmployeeDetail from './rtk1/employees/EmployeeDetail'
 import store from './rtk1/store'
 import { Provider } from 'react-redux'
+import { ToastContainer } from 'react-toastify';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         {/* <hr /> */}
         <EmployeeDetail />
       </section>
+      <ToastContainer />
     </Provider>
   )
 }
