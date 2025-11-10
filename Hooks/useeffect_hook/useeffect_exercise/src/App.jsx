@@ -1,4 +1,8 @@
 import './App.css'
+import CountdownTimer from './components/CountdownTimer'
+import DataFetch from './components/DataFetch'
+import InputValidate from './components/InputValidate'
+import WindowResize from './components/WindowResize'
 import Interval from './exercise1/Interval'
 import Home from './exercise2/Home'
 import Pokemon from './exercise3/Pokemon'
@@ -12,7 +16,12 @@ function App() {
       {/* <Counter/> */}
       {/* <Interval/> */}
       {/* <Home/> */}
-      <Pokemon/>
+      {/* <Pokemon/> */}
+
+      {/* <DataFetch /> */}
+      {/* <CountdownTimer /> */}
+      {/* <WindowResize /> */}
+      <InputValidate />
     </>
   )
 }
