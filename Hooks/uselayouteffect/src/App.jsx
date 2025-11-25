@@ -6,14 +6,14 @@ import ThapaExample from './usecases/ThapaExample.jsx';
 
 export default function App() {
   return (
-    // <div>
-    //   <ColorChange/>
-    // </div>
+    <div>
+      <ColorChange/>
+    </div>
 
     // <MeasuringElement/>
     // <RunCases/>
     // <ThapaExample/>
 
-    <TooltipExample />
+    // <TooltipExample />
   );
 }

@@ -11,6 +11,7 @@ const Movie = ()=> {
         try{
             // const res = await axios.get(API)
             const res = await getMovie()
+            console.log(res)
             setData(res.data.Search)            
         }catch(error){
             console.log(error);

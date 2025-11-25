@@ -11,13 +11,13 @@ function PracticeCall1() {
   const [text, setText] = useState('');
 
   // Problem: This function is re-created on EVERY render of ParentComponent
-  // const handleClick = () => {                   //! Without applying useCallback
-  //   setCount(prevCount => prevCount + 1);
-  // }
-
-  const handleClick = useCallback(() => {                   //! I just applied useCallback here
+  const handleClick = () => {                   //! Without applying useCallback
     setCount(prevCount => prevCount + 1);
-  },[])
+  }
+
+  // const handleClick = useCallback(() => {                   //! I just applied useCallback here
+  //   setCount(prevCount => prevCount + 1);
+  // },[])
   console.log("parent component rendering", handleClick);
 
   return (

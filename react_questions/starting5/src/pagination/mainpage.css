@@ -1,0 +1,51 @@
+.mainsection{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.mainsection img{
+  width: 700px;
+  height: 250px;
+}
+
+.mainsection button{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.mainsection>div:last-child{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.image-container+div{
+  display: flex;
+  gap: 4px;
+}
+
+/* ! Let's image replacement takes smoothly */
+
+.fade-image {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

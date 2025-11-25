@@ -1,0 +1,33 @@
+.mainToast{
+  /* border: 2px solid red; */
+}
+
+.mainToast>div:last-child{
+  /* border: 2px solid green; */
+}
+
+.mainToast div:last-child div{
+  border: 1px solid red;
+  width: 300px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.toast {
+  background: #333;
+  color: white;
+  padding: 12px 18px;
+  margin: 8px 0;
+  border-radius: 6px;
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+/* exit animation */
+.closing {
+  transform: translateX(200px); 
+  opacity: 0;
+  /* height: 0; */
+}

@@ -2,6 +2,7 @@ import axios from 'axios'
 import './App.css'
 import Movie from './pages/Movie'
 import { useEffect, useState } from 'react'
+import PracticeAxios from './practice1/PracticeAxios'
 
 function App() {
   //! First Way of Fetching API data using axios
@@ -25,7 +26,8 @@ function App() {
     <>
       <div>
         {/* <h1>Let's Try first way to fetch the data using axios </h1> */}
-        <Movie/>
+        {/* <Movie/> */}
+        <PracticeAxios />
       </div>
     </>
   )

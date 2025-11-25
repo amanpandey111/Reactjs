@@ -26,6 +26,7 @@ const Memo = () => {
         <div>
             <button onClick={addition} >Addition</button>
             <h1>Count is :{number}</h1>
+            <h1>Count is :{add}</h1>
             <button onClick={()=>setState(!state)}>click me</button>
             <h1>{state?"You clicked":"Please click"}</h1>
         </div>
