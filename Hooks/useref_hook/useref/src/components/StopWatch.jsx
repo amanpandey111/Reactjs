@@ -4,6 +4,8 @@ const StopWatch = () => {
     const [time,setTime] = useState(0);
     let timeRef = useRef(null)
 
+    console.log(timeRef)
+
     function startTimer(){
         timeRef.current = setInterval(() => {
             setTime(time=>time+1)
@@ -31,4 +33,4 @@ const StopWatch = () => {
   )
 }
 
-export default StopWatch
+export default StopWatch;
