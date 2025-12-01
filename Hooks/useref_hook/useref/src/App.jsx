@@ -6,7 +6,10 @@ import ForwardRef from './components/thapa_component/ForwardRef'
 import Practice from './practice_ref/Practice'
 import WhyUseref from './startbasics/WhyUseref'
 // import StaleClosure, { Example } from './startbasics/StaleClosure'
-import TimerTest from './startbasics/StaleClosure'
+import TimerTest from './startbasics/StaleCounter'
+import UserefTimer from './startbasics/UserefTimer'
+import StaleCounter from './startbasics/StaleCounter'
+import FixedCounter from './startbasics/FixedCounter'
 
 function App() {
 
@@ -22,7 +25,11 @@ function App() {
       {/* <WhyUseref /> */}
       {/* <StaleClosure/>
       <Example/> */}
-      <TimerTest/>
+      {/* <TimerTest/> */}
+
+      {/* <UserefTimer/> */}
+      {/* <StaleCounter/> */}
+      <FixedCounter/>
     </div>
   )
 }

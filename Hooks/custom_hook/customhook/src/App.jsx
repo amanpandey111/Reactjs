@@ -16,7 +16,7 @@ function App() {
       {/* <CustomCounter/> */}
       {/* <PracticeCounter/> */}
 
-      <SetTimeout/>
+      {/* <SetTimeout/> */}
     </>
   )
 }
