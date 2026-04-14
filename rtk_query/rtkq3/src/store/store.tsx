@@ -10,4 +10,4 @@ const store = configureStore({
     middleware: (preMiddleware) => preMiddleware().concat([apiOpearte.middleware,apiComments.middleware])
 })
 
-export default store
+export default store;
