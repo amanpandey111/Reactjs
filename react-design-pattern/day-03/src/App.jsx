@@ -4,6 +4,7 @@ import './App.css'
 import Modal from './with-pattern/modal/Modal'
 import AccordionDemo from './with-pattern/accordion/AccordionDemo'
 import MyCards from './tasks/cards/MyCards'
+import MyCard from './task2/MyCard'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -40,12 +41,14 @@ function App() {
     //     </Modal.Footer>
     //   </Modal>
     // </div>
-    <div className='maincard min-h-screen bg-gradient-to-br from-slate-950 via-purple-900 to-slate-950 relative overflow-hidden' >
-      <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        {/*//! here we are doing a tasks related to compound design pattern */}
-        <MyCards />
-      </div>
-    </div>
+
+    // <div className='maincard min-h-screen bg-gradient-to-br from-slate-950 via-purple-900 to-slate-950 relative overflow-hidden' >
+    //   <div className="fixed inset-0 overflow-hidden pointer-events-none">
+    //     <MyCards />
+    //   </div>
+    // </div>
+
+    <MyCard />
   )
 }
 

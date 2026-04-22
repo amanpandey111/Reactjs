@@ -34,3 +34,14 @@ Example:
 - Build a simple card component using this pattern, your card should have <Card.Header>, <Card.Body>, <Card.Footer>.
 - Make a <Card.Image>. Try using it in a few different ways to see how clean the code looks compared to a giant card with 10 props.
 - create a Tab Component Using this pattern.
+
+# Pattern - 2 - (Render Props Pattern)
+## Overview
+The Render Props Pattern is a React design pattern where a component takes a function as a prop and calls that function with its internal state or data, allowing the parent component to control the rendering.
+
+## Syntax
+```jsx
+<MyComponent render={(state) => (
+  <p>{state.value}</p>
+)} />
+```
