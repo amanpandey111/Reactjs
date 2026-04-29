@@ -1,13 +1,36 @@
-import { useState } from 'react'
+import { useCallback, useState } from 'react'
 import './App.css'
 // import Modal from './messy/MOdal'
 import Modal from './with-pattern/modal/Modal'
 import AccordionDemo from './with-pattern/accordion/AccordionDemo'
 import MyCards from './tasks/cards/MyCards'
 import MyCard from './task2/MyCard'
+import CarTracker from './render-prop-pattern/messy/CarTracker'
+import BikeTracker from './render-prop-pattern/messy/BikeTracker'
+import MouseTracker from './render-prop-pattern/with-pattern/MouseTracker'
+import MouseTrackerWithChildren from './render-prop-pattern/with-pattern/using-children-prop/MouseTrackerWithChildren'
+import ToggleComponent from './render-prop-pattern/task/ToggleComponent'
+import CreateToggles from './render-prop-pattern/task/CreateToggles'
+
+//! This is just example to overcome from react render prop de-bubugging issue
+function Car({ pos }) {
+  return <p>🚗 Car at {pos.x}</p>;
+}
+
+function Bike({ pos }) {
+  return <p>🚴 Bike at {pos.x}</p>;
+}
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
+
+  //todo this is used to overcome the performance issue 
+  const renderCar = useCallback((pos) => {
+    // return <Car pos={pos} />
+    return (
+      <p>🚗 Car is At {pos.x} - {pos.y}</p> 
+    )
+  },[])
 
   return (
     // <div className='flex flex-col items-center'>
@@ -48,7 +71,50 @@ function App() {
     //   </div>
     // </div>
 
-    <MyCard />
+    // <MyCard />
+
+    //todo This is the example of render props
+    // <>
+    //   <CarTracker />
+    //   <BikeTracker />
+    // </>
+
+    // <>
+    //    {/* <button onClick={()=>setIsOpen((prev) => !prev)}>click here</button>
+    //   <MouseTracker render={(pos) => (<p> 🚗 Car is At {pos.x} - {pos.y} </p>)} />
+    //   <MouseTracker render={({x, y}) => (<p> 🚴🏻Bi-Cycle is At {x} - {y} </p>)} />
+    //   <MouseTracker render={(pos) => (<p> ⛵ Boat is At {pos.x} - {pos.y} </p>)} /> */}
+
+    //   {/* //todo this is the solution to overcome the de-bug issue */}
+    //   {/* <MouseTracker render={(pos) => (<Car pos={pos}/>)} />
+    //   <MouseTracker render={({x, y}) => (<p> 🚴🏻Bi-Cycle is At {x} - {y} </p>)} />
+    //   <MouseTracker render={(pos) => (<p> ⛵ Boat is At {pos.x} - {pos.y} </p>)} /> */}
+
+    //   {/* <button onClick={()=>setIsOpen((prev) => !prev)}>click here</button>
+    //   <MouseTracker render={renderCar} /> */}
+    // </>
+
+    // <>
+    // <MouseTrackerWithChildren>
+    //   {
+    //     ({x, y}) => (
+    //       <p>🚗 Car is At Position {x} - {y}</p>
+    //     )
+    //   }
+    // </MouseTrackerWithChildren>
+    // <MouseTrackerWithChildren>
+    //   {
+    //     ({x, y}) => (
+    //       <p>�🏻 Bike is At Position {x} - {y}</p>
+    //     )
+    //   }
+    // </MouseTrackerWithChildren>
+    // </>
+    
+    <>
+      {/* let's Do a Toggle Task */}
+      <CreateToggles />
+    </>
   )
 }
 
