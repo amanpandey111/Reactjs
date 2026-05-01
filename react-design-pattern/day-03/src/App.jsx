@@ -11,6 +11,8 @@ import MouseTracker from './render-prop-pattern/with-pattern/MouseTracker'
 import MouseTrackerWithChildren from './render-prop-pattern/with-pattern/using-children-prop/MouseTrackerWithChildren'
 import ToggleComponent from './render-prop-pattern/task/ToggleComponent'
 import CreateToggles from './render-prop-pattern/task/CreateToggles'
+import MovieWithHoc from './higher-order-component/movie/MovieWithHoc'
+import AdminDashboardWithHoc from './higher-order-component/task/AdminDashboardWithHoc'
 
 //! This is just example to overcome from react render prop de-bubugging issue
 function Car({ pos }) {
@@ -111,9 +113,17 @@ function App() {
     // </MouseTrackerWithChildren>
     // </>
     
+    // <>
+    //   {/* let's Do a Toggle Task */}
+    //   {/* <CreateToggles /> */}
+    // </>
+
+    //! Let's practice a Higher Order Component
     <>
-      {/* let's Do a Toggle Task */}
-      <CreateToggles />
+      {/* <MovieWithHoc /> */}
+
+      {/* //todo let's do a task on it */}
+      <AdminDashboardWithHoc />
     </>
   )
 }

@@ -1,0 +1,24 @@
+{
+    "userName" : "Aman pandey",
+    "role" : "employee",
+    "email": "user@company.com",
+    "password": "1234556",
+    "position": "developer",
+    "skill":[
+        "React",
+        "Node",
+        "Mongo",
+        "Api"
+    ],
+    "isReportAccessible": true,
+    "isAdmin": false,
+    "adminPanel" : {
+        "noOfPages" : 10,
+        "noOfmanagers" : 15,
+        "noOfEmployees": 30
+    },
+    "reportpage" : {
+        "salesThisMoneht" : 456,
+        "revenueThisMonth": "1.2CR"
+    }
+}
