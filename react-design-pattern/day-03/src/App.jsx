@@ -13,6 +13,10 @@ import ToggleComponent from './render-prop-pattern/task/ToggleComponent'
 import CreateToggles from './render-prop-pattern/task/CreateToggles'
 import MovieWithHoc from './higher-order-component/movie/MovieWithHoc'
 import AdminDashboardWithHoc from './higher-order-component/task/AdminDashboardWithHoc'
+import ThemeSwitcher from './custom-hook-pattern/components/ThemeSwitcher'
+import LocalStorage from './custom-hook-pattern/components/LocalStorage'
+import ClipBoard from './custom-hook-pattern/components/ClipBoard'
+import Dropdown from './custom-hook-pattern/components/Dropdown'
 
 //! This is just example to overcome from react render prop de-bubugging issue
 function Car({ pos }) {
@@ -119,11 +123,19 @@ function App() {
     // </>
 
     //! Let's practice a Higher Order Component
-    <>
-      {/* <MovieWithHoc /> */}
+    // <>
+    //   {/* <MovieWithHoc /> */}
 
-      {/* //todo let's do a task on it */}
-      <AdminDashboardWithHoc />
+    //   {/* //todo let's do a task on it */}
+    //   {/* <AdminDashboardWithHoc /> */}
+    // </>
+
+    //! Let's Practice a custom hook here
+    <>
+      {/* <ThemeSwitcher /> */}
+      {/* <LocalStorage/> */}
+      {/* <ClipBoard/> */}
+      <Dropdown/>
     </>
   )
 }
