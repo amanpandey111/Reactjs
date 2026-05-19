@@ -1,0 +1,60 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Learning Optimistic UI"
+    }
+  ],
+  "comments": [
+    {
+      "message": "sffgvsfgv",
+      "createdAt": "2026-05-18T14:55:17.360Z",
+      "id": "fZ2CGkroHQg",
+      "postId": 2,
+      "isValid": true
+    },
+    {
+      "message": "sgdvfgvf",
+      "createdAt": "2026-05-18T15:19:45.792Z",
+      "id": "1xyT0mpyANw",
+      "postId": 2,
+      "isValid": true
+    },
+    {
+      "message": "bcdgdc5",
+      "createdAt": "2026-05-18T15:20:05.185Z",
+      "id": "_wISzefiod4",
+      "postId": 2,
+      "isValid": true
+    },
+    {
+      "message": "loaded",
+      "createdAt": "2026-05-18T15:24:25.000Z",
+      "id": "qB6xCV02wO0",
+      "postId": 2,
+      "isValid": true
+    },
+    {
+      "message": "dgf",
+      "createdAt": "2026-05-18T15:24:29.688Z",
+      "id": "Evdv-7Opxl0",
+      "postId": 2,
+      "isValid": true
+    },
+    {
+      "message": "dfgf",
+      "createdAt": "2026-05-18T15:36:21.232Z",
+      "id": "yplrPz6hmq4",
+      "postId": 2,
+      "isValid": true
+    },
+    {
+      "message": "dfgsg",
+      "createdAt": "2026-05-18T15:36:38.240Z",
+      "id": "4D8ibGbnB6c",
+      "postId": 2,
+      "isValid": true
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
