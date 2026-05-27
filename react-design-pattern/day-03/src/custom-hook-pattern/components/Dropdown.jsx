@@ -7,7 +7,6 @@ const Dropdown = () => {
   const ref = useRef();
 
   useClickOutside(ref, () => {
-    console.log('dgxfg');
     setOpen(false);
   });
 

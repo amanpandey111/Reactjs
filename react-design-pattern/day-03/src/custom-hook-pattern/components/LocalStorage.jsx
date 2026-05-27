@@ -2,7 +2,6 @@ import useLocalStorage from "../hooks/useLocalStorage"
 
 const LocalStorage = () => {
     const [user, setUser] = useLocalStorage('user', 'aman pandey')
-    console.log('user is ', user);
   return (
     <div className="flex flex-col gap-4 p-4">
         <h1 className="text-2xl font-bold">Local Storage</h1>

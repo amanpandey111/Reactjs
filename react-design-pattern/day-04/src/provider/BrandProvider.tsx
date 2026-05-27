@@ -7,7 +7,7 @@ const BrandProvider = ({children}) => {
     const brand = { name: 'Yantra Enterprises', color: 'orange' }
     setBrand(brand);
   }, [])
-  console.log(brand);
+
     return (
         <BrandContext value={brand}>
           {children}

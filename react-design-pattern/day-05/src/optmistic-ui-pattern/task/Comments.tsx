@@ -21,7 +21,7 @@ const Comments = () => {
         const data = await apiService.getComments();
         setComments(data);
       } catch (error) {
-        console.log(error);
+
       } finally {
         setLoading(false)
       }
@@ -42,16 +42,16 @@ const Comments = () => {
       await new Promise((r) => setTimeout(r, 2000));
       if (Math.random() < 0.5) throw new Error('Network Error Occured')
       const data = await apiService.addComment({ ...payload, isValid: true })
-      console.log(payload, data);
+
       setComments((prev) => (
         [...prev, data]
       ))
-      console.log(data);
+
     } catch (error) {
-      console.log(error);
+
     }
   }
-  console.log(optimisticComment);
+
   return (
     <div className="border-2 p-3" >
       <h2 className="text-2xl font-bold mb-4" >Comments</h2>

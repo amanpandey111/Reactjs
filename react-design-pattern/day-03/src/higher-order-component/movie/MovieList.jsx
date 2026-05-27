@@ -1,5 +1,5 @@
 const MovieList = ({ data, name }) => {
-    console.log(name);
+
     return (
         <div>
             <h2>movie List</h2>

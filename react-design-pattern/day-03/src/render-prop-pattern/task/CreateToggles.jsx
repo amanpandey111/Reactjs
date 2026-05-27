@@ -5,7 +5,7 @@ const CreateToggles = () => {
         <>
             <div>
                 <ToggleComponent render={({ isOpen, handleToggle }) => {
-                    console.log("First Toggle", isOpen, handleToggle);
+
                     return (
                         <div>
                             <button onClick={handleToggle} >Toggle1</button>
@@ -32,7 +32,7 @@ const CreateToggles = () => {
             </div>
             <div>
                 <ToggleComponent render={({ isOpen, handleToggle }) => {
-                    console.log("second toggle", isOpen, handleToggle);
+
                     return (
                         <div>
                             <button onClick={handleToggle} >Toggle2</button>

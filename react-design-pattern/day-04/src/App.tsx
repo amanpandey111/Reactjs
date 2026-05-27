@@ -13,7 +13,7 @@ function App() {
       setIsVisible(true);
     }
   }, [brand]);
-  console.log(brand?.name);
+
 
   return (
     <>

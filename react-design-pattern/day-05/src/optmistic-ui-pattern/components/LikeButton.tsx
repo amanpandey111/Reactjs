@@ -8,7 +8,7 @@ const LikeButton = ({ postId, initialLikes = 0 }) => {
     const sendLikeToServer = async (postId: number) => {
         await new Promise((r) => setTimeout(r, 2000));
         if (Math.random() < 0.2) throw new Error('Network Error Occured')
-        console.log(`Sent Like For Post Id ${postId}`)
+
         return { success: true }
     }
 
@@ -18,7 +18,7 @@ const LikeButton = ({ postId, initialLikes = 0 }) => {
             await sendLikeToServer(postId);
             setLikes((prev) => prev + 1)
         } catch (error) {
-            console.log('Like Failed: ', error);
+
             setLikes((s) => s)
         }
     }

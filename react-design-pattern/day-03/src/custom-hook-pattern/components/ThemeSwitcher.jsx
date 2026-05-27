@@ -1,7 +1,6 @@
 import useToggle from '../hooks/useToggle'
 const ThemeSwitcher = () => {
     const [isDark, toggleTheme] = useToggle(false)
-    console.log(isDark);
   return (
     <div
       className='w-20 h-8 bg-red-400 border rounded-full cursor-pointer border-white-800'

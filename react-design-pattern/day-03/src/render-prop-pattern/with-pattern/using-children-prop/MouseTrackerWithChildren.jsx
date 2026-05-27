@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function MouseTrackerWithChildren({children}){
-    console.log('Hello');
+
     const [pos, setPos] = useState({x: 0, y: 0})
     function handleMouseMove(e){
         setPos({x: e.screenX, y: e.screenY})

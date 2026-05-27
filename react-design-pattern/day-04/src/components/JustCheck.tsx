@@ -2,7 +2,7 @@ import { useTheme } from '../hook/useTheme'
 //! Just checking wheteher I will get the Provider value here or not
 const JustCheck = () => {
     const result = useTheme();
-    console.log(result);
+
   return (
     <div>JustCheck</div>
   )
