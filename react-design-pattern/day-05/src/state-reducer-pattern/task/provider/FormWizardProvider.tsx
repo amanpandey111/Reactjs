@@ -26,8 +26,7 @@ const initialState: FormState = {
     }
   },
   formErrors: {
-    declarations: {
-    },
+    declarations: {},
     employmentDetails: {},
     personalDetail: {},
   },
