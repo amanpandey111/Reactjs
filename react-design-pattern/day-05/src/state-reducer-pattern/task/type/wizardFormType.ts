@@ -31,7 +31,7 @@ interface ActionType {
   type: 'INPUT_CHANGE' | 'INCREMENT_ACTIVE_STEP' | 'DECREMENT_ACTIVE_STEP';
   payload?: {
     name: string;
-    value: string;
+    value: string | boolean;
     formType: SubFormKeys;
   };
 }
