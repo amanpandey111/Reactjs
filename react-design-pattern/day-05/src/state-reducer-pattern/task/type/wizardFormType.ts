@@ -3,13 +3,15 @@ import type { Dispatch } from "react";
 export type SubFormKeys = 'personalDetail' | 'employmentDetails' | 'declarations';
 
 interface PersonalDetailData {
-  name: string;
+  firstName: string;
+  lastName: string;
   email: string;
   phone: string;
 }
 
 interface EmploymentDetailsData {
   companyName: string;
+  employeeId: number;
   role: string;
   department: string;
 }
@@ -30,6 +32,7 @@ interface ActionType {
   payload?: {
     name: string;
     value: string;
+    formType: SubFormKeys;
   };
 }
 

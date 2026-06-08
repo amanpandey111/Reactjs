@@ -1,11 +1,12 @@
 import { useFormWizardContext } from "../hook/useFormWizardContext";
 import DeclarationForm from "./DeclarationForm";
-import EducationForm from "./EducationForm";
+import EducationForm from "./EmployementDetails";
 import PersonalForm from "./PersonalForm";
 
 const MainForm = () => {
   const { state, dispatch } = useFormWizardContext();
   const { activeStep } = state; // Extracts 1, 2, or 3
+  console.log(state)
 
   // Calculate the progress bar width based on activeStep
   // Step 1 = 0%, Step 2 = 50%, Step 3 = 100%
@@ -53,17 +54,17 @@ const MainForm = () => {
         {/* You can conditionally render your subforms here based on activeStep */}
         {
           activeStep === 1 && (
-            <PersonalForm />
+            <PersonalForm state={state} dispatch={dispatch} />
           )
         }
         {
           activeStep === 2 && (
-            <EducationForm />
+            <EducationForm state={state} dispatch={dispatch} />
           )
         }
         {
           activeStep === 3 && (
-            <DeclarationForm />
+            <DeclarationForm state={state} dispatch={dispatch} />
           )
         }
       </div>

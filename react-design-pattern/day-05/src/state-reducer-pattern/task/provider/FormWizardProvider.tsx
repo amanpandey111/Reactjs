@@ -14,9 +14,11 @@ const initialState: FormState = {
       companyName: '',
       department: '',
       role: '',
+      employeeId: 0,
     },
     personalDetail: {
-      name: '',
+      firstName: '',
+      lastName: '',
       email: '',
       phone: '',
     },
