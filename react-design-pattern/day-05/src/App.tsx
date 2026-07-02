@@ -1,4 +1,6 @@
 import './App.css'
+import AddToCartButton from './pub-sub-pattern/components/publisher/AddToCartButton';
+import CartBadge from './pub-sub-pattern/components/subscriber/CartBadge';
 import MainForm from './state-reducer-pattern/task/component/MainForm';
 // import LikeButton from './optmistic-ui-pattern/components/LikeButton'
 // import Comments from './optmistic-ui-pattern/task/Comments'
@@ -22,9 +24,13 @@ function App() {
         <FormField />
       </FormProvider> */}
 
-      <FormWizardProvider>
+      {/* <FormWizardProvider>
         <MainForm />
-      </FormWizardProvider>
+      </FormWizardProvider> */}
+
+      {/* //todo : pub sub pattern */}
+      <AddToCartButton />
+      <CartBadge />
     </>
   )
 }
