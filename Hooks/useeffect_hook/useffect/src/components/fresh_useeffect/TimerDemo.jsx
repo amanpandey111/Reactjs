@@ -18,9 +18,14 @@ function Timer() {
   useEffect(() => {
     console.log("✅ Timer component mounted");
 
-    setInterval(() => {
+    const intervalId = setInterval(() => {
       console.log("⏰ Tick...");
     }, 1000);
+
+    return () => {
+      console.log('Hello I am cleanup')
+      clearInterval(intervalId)
+    }
   }, []);
 
   return (
