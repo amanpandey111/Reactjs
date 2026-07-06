@@ -1,5 +1,7 @@
 import './App.css'
-import MainForm from './state-reducer-pattern/task/component/MainForm';
+import AddToCartButton from './pub-sub-pattern/components/publisher/AddToCartButton';
+import CartBadge from './pub-sub-pattern/components/subscriber/CartBadge';
+// import MainForm from './state-reducer-pattern/task/component/MainForm';
 // import LikeButton from './optmistic-ui-pattern/components/LikeButton'
 // import Comments from './optmistic-ui-pattern/task/Comments'
 // import FormField from './state-reducer-pattern/component/FormField'
@@ -7,7 +9,7 @@ import MainForm from './state-reducer-pattern/task/component/MainForm';
 // import FormProvider from './state-reducer-pattern/provider/FormProvider'
 // import { customToggleReducer } from './state-reducer-pattern/reducer/toggle-reducer'
 // import { customFormReducer } from './state-reducer-pattern/reducer/form-reducer'
-import FormWizardProvider from './state-reducer-pattern/task/provider/FormWizardProvider'
+// import FormWizardProvider from './state-reducer-pattern/task/provider/FormWizardProvider'
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       </FormWizardProvider> */}
 
       {/* //todo : pub sub pattern */}
+      <AddToCartButton />
+      <CartBadge />
     </>
   )
 }
