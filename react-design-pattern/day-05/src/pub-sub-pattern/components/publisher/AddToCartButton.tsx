@@ -21,7 +21,7 @@ const AddToCartButton = () => {
 
   return (
     <div
-      className="w-max m-auto flex items-center"
+      className="w-max m-auto flex items-center mt-3"
     >
       <div className="flex flex-col items-center justify-center border px-6 py-3 rounded-2xl">
         <h2>Publisher</h2>

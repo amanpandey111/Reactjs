@@ -10,6 +10,7 @@ import CartBadge from './pub-sub-pattern/components/subscriber/CartBadge';
 // import { customToggleReducer } from './state-reducer-pattern/reducer/toggle-reducer'
 // import { customFormReducer } from './state-reducer-pattern/reducer/form-reducer'
 // import FormWizardProvider from './state-reducer-pattern/task/provider/FormWizardProvider'
+import '../src/pub-sub-pattern/lib/listener'
 
 function App() {
   return (
