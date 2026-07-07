@@ -1,6 +1,6 @@
 import './App.css'
-import AddToCartButton from './pub-sub-pattern/components/publisher/AddToCartButton';
-import CartBadge from './pub-sub-pattern/components/subscriber/CartBadge';
+// import AddToCartButton from './pub-sub-pattern/components/publisher/AddToCartButton';
+// import CartBadge from './pub-sub-pattern/components/subscriber/CartBadge';
 // import MainForm from './state-reducer-pattern/task/component/MainForm';
 // import LikeButton from './optmistic-ui-pattern/components/LikeButton'
 // import Comments from './optmistic-ui-pattern/task/Comments'
@@ -11,6 +11,8 @@ import CartBadge from './pub-sub-pattern/components/subscriber/CartBadge';
 // import { customFormReducer } from './state-reducer-pattern/reducer/form-reducer'
 // import FormWizardProvider from './state-reducer-pattern/task/provider/FormWizardProvider'
 import '../src/pub-sub-pattern/lib/listener'
+import EmitNotification from './pub-sub-pattern/components/publisher/EmitNotification';
+import GetNotfication from './pub-sub-pattern/components/subscriber/GetNotfication';
 
 function App() {
   return (
@@ -30,8 +32,10 @@ function App() {
       </FormWizardProvider> */}
 
       {/* //todo : pub sub pattern */}
-      <AddToCartButton />
-      <CartBadge />
+      {/* <AddToCartButton />
+      <CartBadge /> */}
+      <EmitNotification />
+      <GetNotfication />
     </>
   )
 }
