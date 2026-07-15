@@ -1,6 +1,10 @@
 import './App.css'
+import Dashboard from './tasks/Dashboard';
+import MemoizationTask from './tasks/MemoizationTask';
+import ScrollTrackerWith from './techniques/throttling/ScrollTrackerWith';
+import ScrollTrackerWithout from './techniques/throttling/ScrollTrackerWithout';
 // import SearchBox from './techniques/debouncing/SearchBox';
-import ScrollTracker from './techniques/throttling/ScrollTracker';
+// import ScrollTracker from './techniques/throttling/ScrollTracker';
 import ThrottleExample from './techniques/throttling/ThrottleExample';
 // import DerivedState from './techniques/derived-state/DerivedState';
 // import ReRendering from './components/ReRendering';
@@ -19,7 +23,12 @@ function App() {
      {/* <DerivedState /> */}
      {/* <SearchBox /> */}
      {/* <ScrollTracker /> */} 
-     <ThrottleExample />
+     {/* <ThrottleExample /> */}
+     {/* <ScrollTrackerWithout /> */}
+     {/* <ScrollTrackerWith /> */}
+
+     {/* <MemoizationTask /> */}
+     <Dashboard />
     </>
   )
 }
