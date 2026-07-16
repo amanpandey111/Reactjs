@@ -1,6 +1,7 @@
 import './App.css'
 import Dashboard from './tasks/Dashboard';
 import MemoizationTask from './tasks/MemoizationTask';
+import WithoutLazy from './techniques/lazy-loading/WithoutLazy';
 import ScrollTrackerWith from './techniques/throttling/ScrollTrackerWith';
 import ScrollTrackerWithout from './techniques/throttling/ScrollTrackerWithout';
 // import SearchBox from './techniques/debouncing/SearchBox';
@@ -28,7 +29,9 @@ function App() {
      {/* <ScrollTrackerWith /> */}
 
      {/* <MemoizationTask /> */}
-     <Dashboard />
+     {/* <Dashboard /> */}
+
+     {/* part 2 */}
     </>
   )
 }
