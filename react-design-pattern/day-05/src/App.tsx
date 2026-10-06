@@ -34,6 +34,7 @@ function App() {
       {/* //todo : pub sub pattern */}
       {/* <AddToCartButton />
       <CartBadge /> */}
+      {/* fcsdvd */}
       <EmitNotification />
       <GetNotfication />
     </>
