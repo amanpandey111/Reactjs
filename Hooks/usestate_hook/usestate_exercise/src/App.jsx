@@ -18,6 +18,7 @@ import ToggleVisible from './practices/ToggleVisible'
 //! Phase 3 Learning if something don't know
 import DragAndDrop from './experimental_practice/DragAndDrop'
 import DragAndDrop1 from './experimental_practice/DragAndDrop1'
+import UpdateStatesWays from './questions/UpdateStatesWays'
 
 function App() {
 
@@ -34,9 +35,12 @@ function App() {
       {/* <TodoList/>
       <DropDown/> */}
       {/* <SearchFilter/> */}
-      <DragDrop/>
+      {/* <DragDrop/> */}
       {/* <DragAndDrop/> */}
       {/* <DragAndDrop1/> */}
+
+      {/* let's Have a Look at updating the states */}
+      <UpdateStatesWays />
     </>
   )
 }

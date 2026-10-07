@@ -18,7 +18,7 @@ function App() {
     <div>
       {/* <UseEffect/> */}
 
-      {/* <Index/> */}
+      <Index/>
 
       {/* <EffectChallenge/>  */}
 
@@ -30,7 +30,7 @@ function App() {
 
       {/* <Preactice /> */}
 
-      <TimerDemo />
+      {/* <TimerDemo /> */}
     </div>
   )
 }
